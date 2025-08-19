@@ -1,10 +1,11 @@
 // Simple config getter that works in both server and edge runtime
 import { BotConfig } from './types';
-import { verbierConfig, defaultConfig } from './config-data';
+import { verbierConfig, medicalConfig, defaultConfig } from './config-data';
 
 // Map of available configurations
 const configs = new Map<string, BotConfig>([
   ['verbier', verbierConfig],
+  ['medical', medicalConfig],
   ['default', defaultConfig]
 ]);
 

@@ -1,0 +1,147 @@
+Loaded cached credentials.
+DIMENSION: Emotional Wellness
+ASSESSMENT_QUESTIONS:
+1. How well do you manage stress? (0-10)
+2. How often do you feel positive emotions (joy, contentment)? (0-10)
+3. How easily can you identify and express your feelings? (0-10)
+4. How resilient are you in the face of setbacks? (0-10)
+5. How would you rate your overall self-esteem? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Learn basic mindfulness, start journaling, seek professional help
+- NEEDS_IMPROVEMENT: Develop a stress-reduction toolkit (e.g., deep breathing), practice self-compassion
+- GOOD: Cultivate gratitude practice, engage in regular reflective practices
+- OPTIMAL: Mentor others in emotional intelligence, lead resilience workshops
+PERSONALIZED_RECOMMENDATIONS:
+By_Temperament: Introvert: Schedule solo time for reflection, Extrovert: Process feelings by talking with trusted friends
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: 5-minute meditation, name three things you're grateful for, deep breathing exercise
+- Week_goals: Journal 3x/week, practice one mindfulness exercise daily
+- Month_transformations: Complete a Mindfulness-Based Stress Reduction (MBSR) course
+METRICS_TO_TRACK: Mood journal entries, stress level ratings, self-reported resilience score
+
+DIMENSION: Intellectual Wellness
+ASSESSMENT_QUESTIONS:
+1. How often do you engage in activities that challenge you mentally? (0-10)
+2. How often do you learn something new? (0-10)
+3. How open are you to new ideas and perspectives? (0-10)
+4. How often do you engage in creative activities? (0-10)
+5. How confident are you in your problem-solving abilities? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Read a book for 15 mins daily, do a puzzle
+- NEEDS_IMPROVEMENT: Take an online course, visit a museum, learn a new skill
+- GOOD: Engage in debates, start a creative project, teach someone a skill
+- OPTIMAL: Pursue an advanced degree or certification, publish articles, create a significant project
+PERSONALIZED_RECOMMENDATIONS:
+By_Learning_Style: Visual: Watch documentaries, Auditory: Listen to podcasts/audiobooks, Kinesthetic: Take a hands-on workshop
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: Solve a brain teaser, read an article on a new topic, watch a TED talk
+- Week_goals: Finish a non-fiction book, learn 10 new words in a different language
+- Month_transformations: Complete a short online course on a new subject
+METRICS_TO_TRACK: Books read, courses completed, hours spent on learning activities
+
+DIMENSION: Social Wellness
+ASSESSMENT_QUESTIONS:
+1. How satisfied are you with the quality of your relationships? (0-10)
+2. How often do you connect with friends or family? (0-10)
+3. How strong is your sense of belonging to a community? (0-10)
+4. How comfortable are you meeting new people? (0-10)
+5. How well do you set boundaries in your relationships? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Reach out to one friend/family member, practice active listening
+- NEEDS_IMPROVEMENT: Schedule regular social outings, join a club or group
+- GOOD: Deepen existing relationships, host a social gathering
+- OPTIMAL: Organize community events, mentor someone on social skills
+PERSONALIZED_RECOMMENDATIONS:
+By_Life_Stage: Student: Join campus clubs, Young_Professional: Attend networking events, Parent: Connect with other parents, Retiree: Join senior centers or volunteer groups
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: Send a thoughtful text, give a genuine compliment, smile at a stranger
+- Week_goals: Have one meaningful conversation, attend one social event
+- Month_transformations: Volunteer for a cause you care about, organize a regular group activity
+METRICS_TO_TRACK: Number of social interactions per week, satisfaction score for relationships, community events attended
+
+DIMENSION: Spiritual Wellness
+ASSESSMENT_QUESTIONS:
+1. How strong is your sense of purpose and meaning in life? (0-10)
+2. How often do your actions align with your values? (0-10)
+3. How much time do you spend in reflection or meditation? (0-10)
+4. How connected do you feel to something larger than yourself? (0-10)
+5. How often do you feel a sense of peace or awe? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Identify your core values, spend time in nature
+- NEEDS_IMPROVEMENT: Start a journaling practice, explore different philosophical or spiritual traditions
+- GOOD: Engage in regular spiritual practices (e.g., meditation, prayer), find a community
+- OPTIMAL: Live a purpose-driven life, inspire and guide others
+PERSONALIZED_RECOMMENDATIONS:
+By_Belief_System: Theistic: Engage in prayer/religious services, Agnostic/Atheist: Connect with nature, humanism, or ethical philosophy
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: Watch a sunrise/sunset, listen to inspiring music, spend 5 minutes in quiet reflection
+- Week_goals: Journal about your values, spend an hour in nature
+- Month_transformations: Go on a retreat, start a consistent volunteering practice aligned with your values
+METRICS_TO_TRACK: Journal entries on purpose/values, time spent in reflective practices, self-reported sense of peace
+
+DIMENSION: Environmental Wellness
+ASSESSMENT_QUESTIONS:
+1. How much does your living/work space support your well-being? (0-10)
+2. How often do you spend time in nature? (0-10)
+3. How aware are you of your impact on the environment? (0-10)
+4. How safe and comfortable do you feel in your local environment? (0-10)
+5. How actively do you participate in making your environment better? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Declutter one small area, add a plant to your space
+- NEEDS_IMPROVEMENT: Organize your home/office, start recycling, take regular walks in a park
+- GOOD: Optimize your space for productivity and relaxation, reduce waste
+- OPTIMAL: Advocate for environmental protection, create a sustainable living space
+PERSONALIZED_RECOMMENDATIONS:
+By_Location: Urban: Find parks and green spaces, create an indoor garden, Rural: Spend time hiking/gardening, engage in local conservation
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: Open a window for fresh air, make your bed, recycle one item
+- Week_goals: Go for a 30-minute walk in nature, declutter one room
+- Month_transformations: Start a small garden, complete a home organization project
+METRICS_TO_TRACK: Time spent in nature, waste reduction (e.g., bags of trash), home organization score
+
+DIMENSION: Financial Wellness
+ASSESSMENT_QUESTIONS:
+1. How in control do you feel of your financial situation? (0-10)
+2. How prepared are you for a financial emergency? (0-10)
+3. How confident are you in your ability to meet your long-term financial goals? (0-10)
+4. How much stress does your financial situation cause you? (0-10, inverted)
+5. Do you have a budget and stick to it? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Track your spending for one week, create a basic budget
+- NEEDS_IMPROVEMENT: Build an emergency fund, create a debt-repayment plan
+- GOOD: Automate savings and investments, review insurance coverage
+- OPTIMAL: Optimize investment portfolio, engage in estate planning, use finances to help others
+PERSONALIZED_RECOMMENDATIONS:
+By_Income_Level: Lower: Focus on budgeting and emergency fund, Middle: Focus on debt reduction and investing, Higher: Focus on wealth optimization and philanthropy
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: Cancel one unused subscription, pack lunch for a day, check your credit score
+- Week_goals: Create a weekly budget and track spending, set up an automatic savings transfer
+- Month_transformations: Build a $500 emergency fund, open an investment account
+METRICS_TO_TRACK: Savings rate, net worth, debt-to-income ratio, credit score
+
+DIMENSION: Occupational Wellness
+ASSESSMENT_QUESTIONS:
+1. How satisfied are you with your current job or primary occupation? (0-10)
+2. How well does your work align with your values and interests? (0-10)
+3. How good is your work-life balance? (0-10)
+4. Do you have opportunities for growth and development in your career? (0-10)
+5. How positive are your relationships with your colleagues and supervisors? (0-10)
+SCORING: 0-3: Critical, 4-6: Needs Improvement, 7-8: Good, 9-10: Optimal
+OPTIMIZATION_LEVELS:
+- CRITICAL: Identify sources of dissatisfaction, update your resume
+- NEEDS_IMPROVEMENT: Seek new challenges in your current role, network with professionals
+- GOOD: Pursue leadership opportunities, mentor a junior colleague
+- OPTIMAL: Shape your role to align perfectly with your passions, innovate within your field
+PERSONALIZED_RECOMMENDATIONS:
+By_Career_Stage: Early: Focus on skill-building and networking, Mid: Seek leadership and mentorship roles, Late: Focus on legacy projects and knowledge transfer
+EVIDENCE_BASED_INTERVENTIONS:
+- Quick_wins: Organize your digital workspace, take a full lunch break, thank a colleague
+- Week_goals: Set clear boundaries for work hours, have a career development talk with your manager
+- Month_transformations: Complete a professional development course, lead a project
+METRICS_TO_TRACK: Job satisfaction score, work-life balance rating, skills acquired, professional connections made

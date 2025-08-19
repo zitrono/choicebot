@@ -1,0 +1,124 @@
+{
+  "id": "medical",
+  "metadata": {
+    "name": "Medical Diagnostic Assistant",
+    "packageName": "medical-diagnostic-assistant",
+    "version": "0.2.0",
+    "description": "Interactive medical symptom assessment and triage assistant",
+    "longDescription": "An AI-powered medical diagnostic assistant that uses a systematic funnel approach to assess symptoms, identify potential conditions, and provide appropriate triage recommendations. For educational purposes only - not a replacement for professional medical care.",
+    "keywords": ["medical", "health", "symptoms", "diagnostics", "triage", "assessment"],
+    "domain": "https://choice-bot.vercel.app"
+  },
+  
+  "branding": {
+    "appTitle": "Medical Diagnostic Assistant | Symptom Assessment & Triage",
+    "navbarTitle": "Medical Diagnostic Assistant",
+    "themeStorageKey": "medical-theme",
+    "primaryColor": "#2E7D32",
+    "primaryColorName": "medical-green",
+    "colorScheme": {
+      "light": "122 39% 39%",
+      "dark": "122 39% 49%"
+    },
+    "logo": {
+      "svg": null,
+      "iconComponent": "BotIcon"
+    },
+    "favicon": "/favicon.ico"
+  },
+  
+  "ui": {
+    "welcomeMessage": {
+      "title": "Welcome to Your Medical Diagnostic Assistant 🏥",
+      "subtitle": "I'll help you understand your symptoms through a systematic assessment. This is educational information only - for emergencies, call 911 immediately.",
+      "callToAction": "What symptoms are you experiencing today? Select the category that best describes your primary concern:",
+      "options": [
+        "🤕 Head symptoms (headache, dizziness, vision changes)",
+        "🫁 Breathing problems (shortness of breath, cough, wheezing)",
+        "❤️ Chest symptoms (chest pain, palpitations, pressure)",
+        "🤢 Digestive issues (nausea, abdominal pain, diarrhea)",
+        "🌡️ Fever or infection symptoms (fever, chills, body aches)",
+        "🦴 Joint/muscle pain (back pain, joint swelling, muscle aches)"
+      ],
+      "closing": "⚠️ For chest pain, difficulty breathing, or other emergencies, call 911 immediately."
+    },
+    "openGraph": {
+      "title": "Medical Diagnostic Assistant",
+      "description": "Interactive AI-powered symptom assessment using diagnostic funnel methodology",
+      "alt": "Medical Diagnostic Assistant",
+      "image": {
+        "title": "Medical Diagnostic",
+        "subtitle": "ASSISTANT",
+        "tagline": "Systematic Symptom Assessment",
+        "footer": "Educational Purpose Only",
+        "gradient": "linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%)"
+      }
+    }
+  },
+  
+  "ai": {
+    "model": {
+      "provider": "google",
+      "name": "gemini-2.5-flash",
+      "experimental": false,
+      "apiKeyEnv": "GOOGLE_GENERATIVE_AI_API_KEY"
+    },
+    
+    "context": {
+      "dataFile": "data/medical_knowledge.txt",
+      "uploadStrategy": "google-files-api",
+      "displayName": "Medical Diagnostic Knowledge Base",
+      "cacheHours": 48
+    },
+    
+    "prompts": {
+      "systemPromptFile": "prompts/medical-system-prompt.ts",
+      "personalizationEnabled": true,
+      "fallbackPrompt": "You are a medical diagnostic assistant using a systematic funnel approach to assess symptoms.\n\n⚠️ CRITICAL: This is for educational purposes only. Always emphasize:\n- Call 911 for emergencies\n- This does not replace professional medical care\n- When in doubt, seek medical attention\n\nUse the diagnostic funnel:\n1. Start with broad symptom categories\n2. Ask targeted follow-up questions with maximum diagnostic value\n3. Screen for red flags/emergencies\n4. Provide differential diagnosis with likelihood\n5. Recommend appropriate care level\n\nAlways use interactive choices for symptom selection.",
+      "promptVariables": {
+        "emergencyNumber": "911",
+        "urgentCareHours": "8am-8pm",
+        "telemedAvailable": "true"
+      }
+    },
+    
+    "retryStrategy": {
+      "maxDuration": 150,
+      "quotaHandling": true
+    }
+  },
+  
+  "features": {
+    "authentication": false,
+    "chatHistory": true,
+    "fileUpload": false,
+    "structuredResponses": true,
+    "choices": true,
+    "quizzes": false,
+    "recommendations": true,
+    "weather": false,
+    "reservations": false,
+    "diagnosticFlow": true,
+    "triageAssessment": true,
+    "redFlagDetection": true
+  },
+  
+  "schemas": {
+    "festival": false,
+    "assistantResponse": true,
+    "choice": true,
+    "quiz": false,
+    "diagnosis": true,
+    "triage": true
+  },
+  
+  "routes": {
+    "basePath": "/medical",
+    "apiRoutes": {
+      "chat": "/api/chat",
+      "files": "/api/files/upload",
+      "history": "/api/history",
+      "triage": "/api/triage"
+    }
+  }
+}

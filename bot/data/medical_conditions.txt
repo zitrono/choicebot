@@ -1,1 +1,778 @@
 Loaded cached credentials.
+CONDITION: Hypertension | ICD-10: I10
+PREVALENCE: 45,000 per 100,000
+SYMPTOMS_PRIMARY: [often asymptomatic, headache, dizziness]
+SYMPTOMS_SECONDARY: [shortness of breath, nosebleeds, flushing]
+DIFFERENTIAL: [White Coat Hypertension|30%, Secondary Hypertension|10%, Anxiety|5%]
+RED_FLAGS: [systolic > 180, diastolic > 120, chest pain, signs of stroke]
+DIAGNOSTIC_TESTS: [Blood pressure measurement, ECG|to check for heart damage, Urine test|to check for kidney damage]
+TREATMENT_FIRST_LINE: [Lifestyle modification (diet, exercise), Thiazide diuretics]
+SPECIALIST_REFERRAL: [Resistant hypertension, Suspected secondary hypertension]
+
+CONDITION: Coronary Artery Disease | ICD-10: I25.10
+PREVALENCE: 7,000 per 100,000
+SYMPTOMS_PRIMARY: [chest pain (angina), shortness of breath, fatigue]
+SYMPTOMS_SECONDARY: [pain in the jaw or arm, sweating, nausea]
+DIFFERENTIAL: [Gastroesophageal reflux disease (GERD)|25%, Musculoskeletal pain|20%, Anxiety/Panic disorder|15%]
+RED_FLAGS: [unstable angina, myocardial infarction, sudden cardiac death]
+DIAGNOSTIC_TESTS: [ECG, Echocardiogram, Stress test, Coronary angiography]
+TREATMENT_FIRST_LINE: [Aspirin, Beta-blockers, Statins, Nitroglycerin]
+SPECIALIST_REFERRAL: [Persistent symptoms despite medical therapy, Consideration for revascularization]
+
+CONDITION: Atrial Fibrillation | ICD-10: I48.91
+PREVALENCE: 2,000 per 100,000
+SYMPTOMS_PRIMARY: [palpitations, fatigue, shortness of breath]
+SYMPTOMS_SECONDARY: [dizziness, chest pain, syncope]
+DIFFERENTIAL: [Anxiety|30%, Hyperthyroidism|10%, Other supraventricular tachycardias|20%]
+RED_FLAGS: [stroke, heart failure, hemodynamic instability]
+DIAGNOSTIC_TESTS: [ECG, Holter monitor, Echocardiogram]
+TREATMENT_FIRST_LINE: [Rate control (beta-blockers, calcium channel blockers), Anticoagulation]
+SPECIALIST_REFERRAL: [Failure of rate control, Consideration for rhythm control strategy]
+
+CONDITION: Heart Failure | ICD-10: I50.9
+PREVALENCE: 2,000 per 100,000
+SYMPTOMS_PRIMARY: [shortness of breath, fatigue, swelling in legs (edema)]
+SYMPTOMS_SECONDARY: [persistent cough or wheezing, rapid or irregular heartbeat, lack of appetite]
+DIFFERENTIAL: [COPD|20%, Kidney failure|15%, Liver disease|10%]
+RED_FLAGS: [worsening dyspnea at rest, hypotension, altered mental status]
+DIAGNOSTIC_TESTS: [Echocardiogram, BNP blood test, Chest X-ray]
+TREATMENT_FIRST_LINE: [ACE inhibitors or ARBs, Beta-blockers, Diuretics]
+SPECIALIST_REFERRAL: [Advanced heart failure, Consideration for device therapy or transplant]
+
+CONDITION: Stroke | ICD-10: I63.9
+PREVALENCE: 800 per 100,000
+SYMPTOMS_PRIMARY: [sudden numbness or weakness in the face, arm, or leg, especially on one side of the body, sudden confusion, trouble speaking or understanding speech]
+SYMPTOMS_SECONDARY: [sudden trouble seeing in one or both eyes, sudden trouble walking, dizziness, loss of balance or coordination, sudden severe headache with no known cause]
+DIFFERENTIAL: [Hypoglycemia|15%, Seizure with postictal paralysis (Todd's paralysis)|10%, Migraine with aura|10%]
+RED_FLAGS: [sudden severe headache, loss of consciousness, signs of increased intracranial pressure]
+DIAGNOSTIC_TESTS: [CT scan of the head, MRI of the brain, Carotid ultrasound]
+TREATMENT_FIRST_LINE: [Thrombolysis (tPA) if within therapeutic window, Aspirin]
+SPECIALIST_REFERRAL: [All suspected strokes require immediate emergency evaluation]
+
+CONDITION: Asthma | ICD-10: J45.909
+PREVALENCE: 8,000 per 100,000
+SYMPTOMS_PRIMARY: [wheezing, shortness of breath, chest tightness, coughing]
+SYMPTOMS_SECONDARY: [difficulty sleeping, exercise-induced symptoms, frequent respiratory infections]
+DIFFERENTIAL: [COPD|20%, Vocal cord dysfunction|15%, GERD with aspiration|10%]
+RED_FLAGS: [silent chest, cyanosis, altered mental status]
+DIAGNOSTIC_TESTS: [Spirometry, Peak expiratory flow measurement, Allergy testing]
+TREATMENT_FIRST_LINE: [Short-acting beta-agonists (SABA) for rescue, Inhaled corticosteroids (ICS) for control]
+SPECIALIST_REFERRAL: [Poorly controlled asthma despite ICS, Consideration for biologic therapy]
+
+CONDITION: Chronic Obstructive Pulmonary Disease (COPD) | ICD-10: J44.9
+PREVALENCE: 6,000 per 100,000
+SYMPTOMS_PRIMARY: [chronic cough, sputum production, dyspnea on exertion]
+SYMPTOMS_SECONDARY: [wheezing, chest tightness, fatigue]
+DIFFERENTIAL: [Asthma|30%, Heart failure|20%, Bronchiectasis|10%]
+RED_FLAGS: [worsening dyspnea at rest, use of accessory muscles, cyanosis]
+DIAGNOSTIC_TESTS: [Spirometry, Chest X-ray, Arterial blood gas]
+TREATMENT_FIRST_LINE: [Smoking cessation, Bronchodilators (LAMA/LABA), Inhaled corticosteroids in select patients]
+SPECIALIST_REFERRAL: [Severe COPD, Frequent exacerbations, Consideration for oxygen therapy]
+
+CONDITION: Pneumonia | ICD-10: J18.9
+PREVALENCE: 1,000 per 100,000
+SYMPTOMS_PRIMARY: [cough with phlegm, fever, chills, difficulty breathing]
+SYMPTOMS_SECONDARY: [chest pain, fatigue, confusion (in older adults)]
+DIFFERENTIAL: [Acute bronchitis|30%, Heart failure|20%, Pulmonary embolism|10%]
+RED_FLAGS: [sepsis, respiratory failure, multilobar infiltrates]
+DIAGNOSTIC_TESTS: [Chest X-ray, CBC|to check for leukocytosis, Sputum culture]
+TREATMENT_FIRST_LINE: [Antibiotics (e.g., amoxicillin, doxycycline, azithromycin)]
+SPECIALIST_REFERRAL: [Severe pneumonia requiring hospitalization, Failure to respond to outpatient therapy]
+
+CONDITION: Pulmonary Embolism | ICD-10: I26.99
+PREVALENCE: 100 per 100,000
+SYMPTOMS_PRIMARY: [sudden shortness of breath, chest pain (often pleuritic), cough (may be bloody)]
+SYMPTOMS_SECONDARY: [leg swelling or pain, clammy or discolored skin (cyanosis), fever]
+DIFFERENTIAL: [Myocardial infarction|20%, Pneumonia|20%, Pleurisy|15%]
+RED_FLAGS: [hemodynamic instability, right heart strain on imaging, large clot burden]
+DIAGNOSTIC_TESTS: [CT pulmonary angiography (CTPA), D-dimer, Ventilation-perfusion (V/Q) scan]
+TREATMENT_FIRST_LINE: [Anticoagulation (e.g., heparin, DOACs)]
+SPECIALIST_REFERRAL: [Massive or submassive PE, Contraindication to anticoagulation]
+
+CONDITION: Tuberculosis | ICD-10: A15.0
+PREVALENCE: 3 per 100,000 (in the US)
+SYMPTOMS_PRIMARY: [persistent cough (sometimes with blood), fever, night sweats]
+SYMPTOMS_SECONDARY: [weight loss, fatigue, chest pain]
+DIFFERENTIAL: [Pneumonia|30%, Lung cancer|20%, Fungal lung infection|15%]
+RED_FLAGS: [hemoptysis, extrapulmonary signs, drug resistance]
+DIAGNOSTIC_TESTS: [Tuberculin skin test (TST) or interferon-gamma release assay (IGRA), Chest X-ray, Sputum smear and culture]
+TREATMENT_FIRST_LINE: [Combination of antibiotics (e.g., isoniazid, rifampin, pyrazinamide, ethambutol)]
+SPECIALIST_REFERRAL: [All cases of active TB should be managed by or in consultation with an infectious disease specialist]
+
+CONDITION: Gastroesophageal Reflux Disease (GERD) | ICD-10: K21.9
+PREVALENCE: 20,000 per 100,000
+SYMPTOMS_PRIMARY: [heartburn, regurgitation, dysphagia]
+SYMPTOMS_SECONDARY: [chronic cough, laryngitis, chest pain]
+DIFFERENTIAL: [Peptic ulcer disease|20%, Esophagitis|15%, Non-cardiac chest pain|15%]
+RED_FLAGS: [dysphagia, odynophagia, weight loss, iron deficiency anemia]
+DIAGNOSTIC_TESTS: [Upper endoscopy|if red flags present, 24-hour pH monitoring]
+TREATMENT_FIRST_LINE: [Lifestyle modifications, Proton pump inhibitors (PPIs)]
+SPECIALIST_REFERRAL: [Failure to respond to PPIs, Complications such as Barrett's esophagus]
+
+CONDITION: Peptic Ulcer Disease | ICD-10: K27.9
+PREVALENCE: 1,500 per 100,000
+SYMPTOMS_PRIMARY: [epigastric pain, bloating, belching]
+SYMPTOMS_SECONDARY: [nausea, vomiting, weight loss]
+DIFFERENTIAL: [GERD|30%, Gastritis|25%, Pancreatitis|10%]
+RED_FLAGS: [melena, hematemesis, perforation (sudden severe pain)]
+DIAGNOSTIC_TESTS: [Upper endoscopy, H. pylori testing (breath test, stool antigen, or biopsy)]
+TREATMENT_FIRST_LINE: [Proton pump inhibitors (PPIs), Eradication of H. pylori if present]
+SPECIALIST_REFERRAL: [Complicated ulcers (bleeding, perforation), Refractory ulcers]
+
+CONDITION: Irritable Bowel Syndrome (IBS) | ICD-10: K58.0
+PREVALENCE: 15,000 per 100,000
+SYMPTOMS_PRIMARY: [abdominal pain, bloating, change in bowel habits (diarrhea, constipation, or both)]
+SYMPTOMS_SECONDARY: [mucus in stool, feeling of incomplete evacuation, fatigue]
+DIFFERENTIAL: [Inflammatory bowel disease (IBD)|15%, Celiac disease|10%, Microscopic colitis|5%]
+RED_FLAGS: [rectal bleeding, nocturnal symptoms, weight loss, anemia]
+DIAGNOSTIC_TESTS: [Diagnosis of exclusion, based on Rome IV criteria. Limited testing to rule out red flags (e.g., CBC, celiac serology, stool studies)]
+TREATMENT_FIRST_LINE: [Dietary modification (e.g., low FODMAP diet), Fiber supplements, Antispasmodics]
+SPECIALIST_REFERRAL: [Severe or refractory symptoms, Diagnostic uncertainty]
+
+CONDITION: Crohn's Disease | ICD-10: K50.90
+PREVALENCE: 300 per 100,000
+SYMPTOMS_PRIMARY: [abdominal pain, diarrhea (may be bloody), weight loss]
+SYMPTOMS_SECONDARY: [fatigue, fever, oral ulcers, perianal disease]
+DIFFERENTIAL: [Ulcerative colitis|30%, Irritable bowel syndrome (IBS)|20%, Infectious colitis|15%]
+RED_FLAGS: [bowel obstruction, fistula formation, abscess]
+DIAGNOSTIC_TESTS: [Colonoscopy with biopsy, CT or MR enterography, Stool studies to rule out infection]
+TREATMENT_FIRST_LINE: [Corticosteroids for flares, 5-ASA agents, Immunomodulators (e.g., azathioprine), Biologics (e.g., anti-TNF agents)]
+SPECIALIST_REFERRAL: [All patients with Crohn's disease should be managed by a gastroenterologist]
+
+CONDITION: Ulcerative Colitis | ICD-10: K51.90
+PREVALENCE: 300 per 100,000
+SYMPTOMS_PRIMARY: [bloody diarrhea, tenesmus, abdominal cramping]
+SYMPTOMS_SECONDARY: [fatigue, weight loss, extraintestinal manifestations (e.g., arthritis, skin lesions)]
+DIFFERENTIAL: [Crohn's disease|30%, Infectious colitis|25%, Ischemic colitis|10%]
+RED_FLAGS: [toxic megacolon, severe bleeding, perforation]
+DIAGNOSTIC_TESTS: [Colonoscopy with biopsy, Stool studies to rule out infection]
+TREATMENT_FIRST_LINE: [5-ASA agents (e.g., mesalamine), Corticosteroids for flares, Immunomodulators, Biologics]
+SPECIALIST_REFERRAL: [All patients with ulcerative colitis should be managed by a gastroenterologist]
+
+CONDITION: Migraine | ICD-10: G43.909
+PREVALENCE: 15,000 per 100,000
+SYMPTOMS_PRIMARY: [throbbing headache (usually unilateral), photophobia, phonophobia]
+SYMPTOMS_SECONDARY: [nausea, vomiting, aura (visual or sensory disturbances)]
+DIFFERENTIAL: [Tension-type headache|30%, Cluster headache|5%, Secondary headache (e.g., from sinus infection or tumor)|5%]
+RED_FLAGS: [thunderclap headache, new onset headache in patient >50, headache with fever or neck stiffness]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on ICHD-3 criteria. Neuroimaging (CT or MRI) if red flags are present]
+TREATMENT_FIRST_LINE: [Abortive: NSAIDs, Triptans. Prophylactic: Beta-blockers, Antidepressants, Anticonvulsants]
+SPECIALIST_REFERRAL: [Chronic migraine, Refractory to standard treatments]
+
+CONDITION: Epilepsy | ICD-10: G40.909
+PREVALENCE: 1,200 per 100,000
+SYMPTOMS_PRIMARY: [recurrent seizures (focal or generalized)]
+SYMPTOMS_SECONDARY: [postictal confusion, aura, automatisms]
+DIFFERENTIAL: [Syncope|25%, Psychogenic non-epileptic seizures (PNES)|20%, Migraine with aura|10%]
+RED_FLAGS: [status epilepticus, new onset seizures in an adult, focal neurological deficits]
+DIAGNOSTIC_TESTS: [Electroencephalogram (EEG), MRI of the brain]
+TREATMENT_FIRST_LINE: [Antiepileptic drugs (AEDs) (e.g., levetiracetam, lamotrigine)]
+SPECIALIST_REFERRAL: [All patients with epilepsy should be managed by a neurologist]
+
+CONDITION: Parkinson's Disease | ICD-10: G20
+PREVALENCE: 1,000 per 100,000
+SYMPTOMS_PRIMARY: [bradykinesia, resting tremor, rigidity]
+SYMPTOMS_SECONDARY: [postural instability, shuffling gait, masked facies]
+DIFFERENTIAL: [Drug-induced parkinsonism|20%, Essential tremor|15%, Multiple system atrophy|10%]
+RED_FLAGS: [early falls, symmetric onset, lack of response to levodopa]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. DaTscan may be used to differentiate from essential tremor]
+TREATMENT_FIRST_LINE: [Levodopa, Dopamine agonists]
+SPECIALIST_REFERRAL: [All patients with Parkinson's disease should be managed by a neurologist]
+
+CONDITION: Multiple Sclerosis | ICD-10: G35
+PREVALENCE: 100 per 100,000
+SYMPTOMS_PRIMARY: [sensory disturbances (numbness, tingling), optic neuritis, motor weakness]
+SYMPTOMS_SECONDARY: [fatigue, spasticity, bladder dysfunction]
+DIFFERENTIAL: [Neuromyelitis optica spectrum disorder (NMOSD)|10%, Sarcoidosis|5%, Vitamin B12 deficiency|5%]
+RED_FLAGS: [rapidly progressive disability, transverse myelitis, bilateral optic neuritis]
+DIAGNOSTIC_TESTS: [MRI of the brain and spinal cord with contrast, Lumbar puncture for oligoclonal bands]
+TREATMENT_FIRST_LINE: [Disease-modifying therapies (DMTs) (e.g., interferons, glatiramer acetate, oral agents, monoclonal antibodies)]
+SPECIALIST_REFERRAL: [All patients with MS should be managed by a neurologist]
+
+CONDITION: Alzheimer's Disease | ICD-10: G30.9
+PREVALENCE: 1,800 per 100,000 (in those >65 years old)
+SYMPTOMS_PRIMARY: [memory loss (especially short-term), difficulty with problem-solving and planning, confusion with time or place]
+SYMPTOMS_SECONDARY: [mood and personality changes, withdrawal from social activities, difficulty with language]
+DIFFERENTIAL: [Vascular dementia|20%, Lewy body dementia|15%, Frontotemporal dementia|10%]
+RED_FLAGS: [early onset (<65 years), rapid cognitive decline, focal neurological signs]
+DIAGNOSTIC_TESTS: [Neuropsychological testing, MRI or CT of the brain to rule out other causes. Amyloid PET scan or CSF analysis for biomarkers can confirm diagnosis]
+TREATMENT_FIRST_LINE: [Cholinesterase inhibitors (e.g., donepezil), NMDA receptor antagonists (e.g., memantine)]
+SPECIALIST_REFERRAL: [For diagnosis and management, often by a neurologist or geriatrician]
+
+CONDITION: Type 2 Diabetes Mellitus | ICD-10: E11.9
+PREVALENCE: 10,000 per 100,000
+SYMPTOMS_PRIMARY: [polyuria, polydipsia, polyphagia]
+SYMPTOMS_SECONDARY: [fatigue, blurred vision, slow-healing sores]
+DIFFERENTIAL: [Type 1 diabetes|10%, Latent autoimmune diabetes in adults (LADA)|5%, Monogenic diabetes|1%]
+RED_FLAGS: [diabetic ketoacidosis (DKA), hyperosmolar hyperglycemic state (HHS), severe hypoglycemia]
+DIAGNOSTIC_TESTS: [Fasting plasma glucose, HbA1c, Oral glucose tolerance test]
+TREATMENT_FIRST_LINE: [Lifestyle modification (diet and exercise), Metformin]
+SPECIALIST_REFERRAL: [Difficulty with glycemic control, Management of complications]
+
+CONDITION: Hypothyroidism | ICD-10: E03.9
+PREVALENCE: 4,600 per 100,000
+SYMPTOMS_PRIMARY: [fatigue, weight gain, cold intolerance]
+SYMPTOMS_SECONDARY: [constipation, dry skin, hair loss]
+DIFFERENTIAL: [Depression|20%, Chronic fatigue syndrome|15%, Anemia|10%]
+RED_FLAGS: [myxedema coma, severe bradycardia, altered mental status]
+DIAGNOSTIC_TESTS: [TSH, Free T4]
+TREATMENT_FIRST_LINE: [Levothyroxine]
+SPECIALIST_REFERRAL: [Difficulty managing TSH levels, Pregnancy, Presence of a large goiter or nodule]
+
+CONDITION: Hyperthyroidism | ICD-10: E05.90
+PREVALENCE: 1,200 per 100,000
+SYMPTOMS_PRIMARY: [weight loss, heat intolerance, palpitations]
+SYMPTOMS_SECONDARY: [anxiety, tremor, diarrhea]
+DIFFERENTIAL: [Anxiety disorder|30%, Pheochromocytoma|5%, New onset atrial fibrillation|10%]
+RED_FLAGS: [thyroid storm, ophthalmopathy, heart failure]
+DIAGNOSTIC_TESTS: [TSH, Free T4, T3, Thyroid stimulating immunoglobulin (TSI) or TSH receptor antibodies (TRAb) for Graves' disease, Radioactive iodine uptake and scan]
+TREATMENT_FIRST_LINE: [Beta-blockers for symptom control, Antithyroid drugs (methimazole, propylthiouracil), Radioactive iodine, Surgery]
+SPECIALIST_REFERRAL: [All patients with hyperthyroidism should be managed by an endocrinologist]
+
+CONDITION: Cushing's Syndrome | ICD-10: E24.9
+PREVALENCE: 10 per 100,000
+SYMPTOMS_PRIMARY: [weight gain (central obesity), moon face, purple striae]
+SYMPTOMS_SECONDARY: [hirsutism, muscle weakness, hypertension]
+DIFFERENTIAL: [Metabolic syndrome|40%, Polycystic ovary syndrome (PCOS)|20%, Exogenous steroid use|30%]
+RED_FLAGS: [hypokalemia, rapid onset of symptoms, signs of malignancy]
+DIAGNOSTIC_TESTS: [24-hour urinary free cortisol, Late-night salivary cortisol, Low-dose dexamethasone suppression test. Further testing to determine the cause (e.g., ACTH level, high-dose dexamethasone suppression test, imaging)]
+TREATMENT_FIRST_LINE: [Treatment depends on the cause. Surgical resection of tumor if applicable.]
+SPECIALIST_REFERRAL: [All suspected cases of Cushing's syndrome should be referred to an endocrinologist]
+
+CONDITION: Addison's Disease (Primary Adrenal Insufficiency) | ICD-10: E27.1
+PREVALENCE: 14 per 100,000
+SYMPTOMS_PRIMARY: [fatigue, muscle weakness, weight loss]
+SYMPTOMS_SECONDARY: [hyperpigmentation, hypotension, salt craving]
+DIFFERENTIAL: [Chronic fatigue syndrome|25%, Hypothyroidism|15%, Depression|15%]
+RED_FLAGS: [adrenal crisis (hypotension, shock, altered mental status)]
+DIAGNOSTIC_TESTS: [Morning cortisol, ACTH stimulation test, Plasma ACTH level]
+TREATMENT_FIRST_LINE: [Glucocorticoid replacement (e.g., hydrocortisone), Mineralocorticoid replacement (e.g., fludrocortisone)]
+SPECIALIST_REFERRAL: [All patients with Addison's disease should be managed by an endocrinologist]
+
+CONDITION: Rheumatoid Arthritis | ICD-10: M06.9
+PREVALENCE: 1,300 per 100,000
+SYMPTOMS_PRIMARY: [symmetrical joint pain and swelling (especially in hands and feet), morning stiffness > 1 hour]
+SYMPTOMS_SECONDARY: [fatigue, rheumatoid nodules, fever]
+DIFFERENTIAL: [Osteoarthritis|30%, Psoriatic arthritis|15%, Lupus (SLE)|10%]
+RED_FLAGS: [vasculitis, cervical myelopathy, scleritis]
+DIAGNOSTIC_TESTS: [Rheumatoid factor (RF), Anti-citrullinated protein antibodies (ACPA/anti-CCP), C-reactive protein (CRP), Erythrocyte sedimentation rate (ESR), Joint X-rays]
+TREATMENT_FIRST_LINE: [Disease-modifying antirheumatic drugs (DMARDs) (e.g., methotrexate), NSAIDs for symptom control]
+SPECIALIST_REFERRAL: [All patients with suspected rheumatoid arthritis should be referred to a rheumatologist]
+
+CONDITION: Systemic Lupus Erythematosus (SLE) | ICD-10: M32.9
+PREVALENCE: 50 per 100,000
+SYMPTOMS_PRIMARY: [fatigue, fever, joint pain, malar (butterfly) rash]
+SYMPTOMS_SECONDARY: [photosensitivity, oral ulcers, pleurisy, pericarditis]
+DIFFERENTIAL: [Rheumatoid arthritis|20%, Other connective tissue diseases|20%, Fibromyalgia|15%]
+RED_FLAGS: [lupus nephritis, cerebritis, hemolytic anemia]
+DIAGNOSTIC_TESTS: [Antinuclear antibody (ANA), Anti-double-stranded DNA (anti-dsDNA), Anti-Smith (anti-Sm) antibodies, Complement levels (C3, C4), Urinalysis]
+TREATMENT_FIRST_LINE: [Hydroxychloroquine, NSAIDs, Corticosteroids for flares, Immunosuppressants (e.g., mycophenolate, azathioprine)]
+SPECIALIST_REFERRAL: [All patients with SLE should be managed by a rheumatologist]
+
+CONDITION: Psoriatic Arthritis | ICD-10: L40.50
+PREVALENCE: 200 per 100,000
+SYMPTOMS_PRIMARY: [joint pain and stiffness, psoriasis, enthesitis (inflammation where tendons/ligaments insert into bone)]
+SYMPTOMS_SECONDARY: [dactylitis (sausage fingers/toes), nail changes (pitting, onycholysis), eye inflammation (uveitis)]
+DIFFERENTIAL: [Rheumatoid arthritis|30%, Osteoarthritis|20%, Gout|10%]
+RED_FLAGS: [arthritis mutilans, severe skin disease, axial involvement]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on CASPAR criteria. RF and anti-CCP are usually negative. Imaging of affected joints.]
+TREATMENT_FIRST_LINE: [NSAIDs, DMARDs (e.g., methotrexate), Biologics (e.g., anti-TNF agents)]
+SPECIALIST_REFERRAL: [All patients with psoriatic arthritis should be referred to a rheumatologist]
+
+CONDITION: Gout | ICD-10: M10.9
+PREVALENCE: 3,900 per 100,000
+SYMPTOMS_PRIMARY: [sudden, severe attacks of pain, swelling, redness, and tenderness in a joint, often the big toe]
+SYMPTOMS_SECONDARY: [tophi (urate crystal deposits), limited range of motion in the affected joint]
+DIFFERENTIAL: [Septic arthritis|30%, Pseudogout (CPPD)|25%, Cellulitis|20%]
+RED_FLAGS: [fever and signs of systemic infection (to rule out septic arthritis)]
+DIAGNOSTIC_TESTS: [Joint fluid analysis for monosodium urate crystals (gold standard), Serum uric acid level]
+TREATMENT_FIRST_LINE: [Acute attack: NSAIDs, colchicine, or corticosteroids. Prevention: Urate-lowering therapy (e.g., allopurinol, febuxostat)]
+SPECIALIST_REFERRAL: [Refractory gout, Tophaceous gout, Allergic to first-line urate-lowering therapy]
+
+CONDITION: Ankylosing Spondylitis | ICD-10: M45.9
+PREVALENCE: 500 per 100,000
+SYMPTOMS_PRIMARY: [chronic inflammatory back pain (improves with exercise, not with rest), sacroiliitis]
+SYMPTOMS_SECONDARY: [enthesitis, uveitis, peripheral arthritis]
+DIFFERENTIAL: [Mechanical back pain|40%, Diffuse idiopathic skeletal hyperostosis (DISH)|15%, Psoriatic arthritis with axial involvement|10%]
+RED_FLAGS: [cauda equina syndrome, spinal fracture, aortic regurgitation]
+DIAGNOSTIC_TESTS: [HLA-B27 gene test, CRP, ESR, X-ray or MRI of the sacroiliac joints and spine]
+TREATMENT_FIRST_LINE: [NSAIDs, Physical therapy, Biologics (e.g., anti-TNF agents)]
+SPECIALIST_REFERRAL: [All patients with ankylosing spondylitis should be referred to a rheumatologist]
+
+CONDITION: Atopic Dermatitis (Eczema) | ICD-10: L20.9
+PREVALENCE: 10,000 per 100,000
+SYMPTOMS_PRIMARY: [dry, itchy skin, red to brownish-gray patches, small, raised bumps, which may leak fluid and crust over when scratched]
+SYMPTOMS_SECONDARY: [thickened, cracked, scaly skin, raw, sensitive, swollen skin from scratching]
+DIFFERENTIAL: [Contact dermatitis|30%, Seborrheic dermatitis|20%, Psoriasis|15%]
+RED_FLAGS: [eczema herpeticum (widespread viral infection), secondary bacterial infection (impetigo)]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Allergy testing may be helpful in some cases.]
+TREATMENT_FIRST_LINE: [Moisturizers, Topical corticosteroids, Topical calcineurin inhibitors]
+SPECIALIST_REFERRAL: [Severe or refractory eczema, Consideration for systemic therapy (e.g., dupilumab)]
+
+CONDITION: Psoriasis | ICD-10: L40.9
+PREVALENCE: 3,000 per 100,000
+SYMPTOMS_PRIMARY: [red patches of skin covered with thick, silvery scales, dry, cracked skin that may bleed or itch]
+SYMPTOMS_SECONDARY: [itching, burning, or soreness, thickened, pitted, or ridged nails, swollen and stiff joints (psoriatic arthritis)]
+DIFFERENTIAL: [Atopic dermatitis|25%, Seborrheic dermatitis|20%, Tinea corporis (ringworm)|15%]
+RED_FLAGS: [erythrodermic psoriasis, pustular psoriasis, psoriatic arthritis]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Skin biopsy can confirm.]
+TREATMENT_FIRST_LINE: [Topical corticosteroids, Vitamin D analogues, Phototherapy, Systemic medications (e.g., methotrexate, biologics) for moderate to severe disease]
+SPECIALIST_REFERRAL: [Moderate to severe psoriasis, Psoriatic arthritis, Failure of topical therapy]
+
+CONDITION: Acne Vulgaris | ICD-10: L70.0
+PREVALENCE: Very common, affects most adolescents
+SYMPTOMS_PRIMARY: [comedones (blackheads and whiteheads), papules, pustules]
+SYMPTOMS_SECONDARY: [nodules, cysts, scarring]
+DIFFERENTIAL: [Rosacea|20%, Perioral dermatitis|15%, Folliculitis|10%]
+RED_FLAGS: [acne fulminans, signs of hyperandrogenism]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Hormonal evaluation if hyperandrogenism is suspected.]
+TREATMENT_FIRST_LINE: [Topical retinoids, Benzoyl peroxide, Topical antibiotics. Oral antibiotics, hormonal therapy, or isotretinoin for more severe cases.]
+SPECIALIST_REFERRAL: [Severe, scarring, or treatment-resistant acne]
+
+CONDITION: Rosacea | ICD-10: L71.9
+PREVALENCE: 5,000 per 100,000
+SYMPTOMS_PRIMARY: [facial erythema (flushing and persistent redness), telangiectasias, papules and pustules]
+SYMPTOMS_SECONDARY: [burning or stinging sensation, ocular rosacea (dry, irritated eyes), rhinophyma (thickened skin on the nose)]
+DIFFERENTIAL: [Acne vulgaris|30%, Seborrheic dermatitis|20%, Lupus (SLE)|10%]
+RED_FLAGS: [ocular involvement with vision changes, severe rhinophyma]
+DIAGNOSTIC_TESTS: [Clinical diagnosis.]
+TREATMENT_FIRST_LINE: [Topical metronidazole, azelaic acid, or ivermectin. Oral antibiotics (e.g., doxycycline) for more severe cases. Avoidance of triggers.]
+SPECIALIST_REFERRAL: [Moderate to severe rosacea, Ocular rosacea, Rhinophyma]
+
+CONDITION: Melanoma | ICD-10: C43.9
+PREVALENCE: 30 per 100,000
+SYMPTOMS_PRIMARY: [asymmetrical, border irregular, color variegated, diameter >6mm, evolving mole (ABCDEs)]
+SYMPTOMS_SECONDARY: [a sore that doesn't heal, spread of pigment from the border of a spot into surrounding skin, redness or a new swelling beyond the border]
+DIFFERENTIAL: [Benign nevus|50%, Seborrheic keratosis|20%, Pigmented basal cell carcinoma|10%]
+RED_FLAGS: [any lesion suspicious for melanoma based on ABCDE criteria, new or changing mole]
+DIAGNOSTIC_TESTS: [Excisional biopsy of the suspicious lesion.]
+TREATMENT_FIRST_LINE: [Wide surgical excision. Further treatment (e.g., sentinel lymph node biopsy, immunotherapy, targeted therapy) depends on the stage.]
+SPECIALIST_REFERRAL: [All suspected melanomas should be evaluated by a dermatologist for biopsy.]
+
+CONDITION: Iron Deficiency Anemia | ICD-10: D50.9
+PREVALENCE: 2,000 per 100,000 (higher in women of childbearing age)
+SYMPTOMS_PRIMARY: [fatigue, weakness, pale skin]
+SYMPTOMS_SECONDARY: [shortness of breath, dizziness, pica (craving for non-nutritive substances)]
+DIFFERENTIAL: [Anemia of chronic disease|25%, Thalassemia|10%, Vitamin B12 or folate deficiency anemia|10%]
+RED_FLAGS: [anemia with signs of gastrointestinal bleeding (melena, hematochezia), severe anemia causing hemodynamic instability]
+DIAGNOSTIC_TESTS: [CBC, Ferritin, TIBC, Serum iron]
+TREATMENT_FIRST_LINE: [Oral iron supplementation. Investigation and treatment of the underlying cause of iron deficiency.]
+SPECIALIST_REFERRAL: [Failure to respond to oral iron, Need for intravenous iron, Unexplained iron deficiency]
+
+CONDITION: Vitamin B12 Deficiency Anemia | ICD-10: D51.9
+PREVALENCE: 6 per 100,000 (increases with age)
+SYMPTOMS_PRIMARY: [megaloblastic anemia, fatigue, weakness]
+SYMPTOMS_SECONDARY: [neurological symptoms (numbness, tingling, difficulty walking), glossitis (sore tongue), cognitive changes]
+DIFFERENTIAL: [Folate deficiency anemia|30%, Myelodysplastic syndrome|10%, Hypothyroidism|10%]
+RED_FLAGS: [severe neurological symptoms, pancytopenia]
+DIAGNOSTIC_TESTS: [CBC with peripheral smear, Serum vitamin B12 level, Methylmalonic acid (MMA) and homocysteine levels]
+TREATMENT_FIRST_LINE: [Vitamin B12 injections or high-dose oral vitamin B12.]
+SPECIALIST_REFERRAL: [Diagnostic uncertainty, Severe neurological symptoms, Suspicion of pernicious anemia]
+
+CONDITION: Sickle Cell Anemia | ICD-10: D57.1
+PREVALENCE: 100 per 100,000 (in African Americans)
+SYMPTOMS_PRIMARY: [anemia, episodes of pain (vaso-occlusive crises)]
+SYMPTOMS_SECONDARY: [swelling of hands and feet, frequent infections, delayed growth or puberty]
+DIFFERENTIAL: [Other hemoglobinopathies (e.g., sickle cell trait, hemoglobin SC disease), Other causes of hemolytic anemia]
+RED_FLAGS: [acute chest syndrome, stroke, splenic sequestration]
+DIAGNOSTIC_TESTS: [Hemoglobin electrophoresis, CBC, Reticulocyte count]
+TREATMENT_FIRST_LINE: [Hydroxyurea, Pain management during crises, Prophylactic penicillin in children, Folic acid supplementation]
+SPECIALIST_REFERRAL: [All patients with sickle cell anemia should be managed by a hematologist.]
+
+CONDITION: Hemophilia | ICD-10: D66 (Hemophilia A), D67 (Hemophilia B)
+PREVALENCE: 20 per 100,000 males
+SYMPTOMS_PRIMARY: [prolonged bleeding after injury or surgery, spontaneous bleeding (especially into joints and muscles)]
+SYMPTOMS_SECONDARY: [joint pain and swelling, easy bruising]
+DIFFERENTIAL: [Von Willebrand disease|40%, Platelet disorders|20%, Vitamin K deficiency|10%]
+RED_FLAGS: [intracranial hemorrhage, airway obstruction from bleeding, compartment syndrome]
+DIAGNOSTIC_TESTS: [Coagulation studies (prolonged aPTT), Factor VIII or IX activity levels]
+TREATMENT_FIRST_LINE: [Factor replacement therapy (on-demand or prophylactic).]
+SPECIALIST_REFERRAL: [All patients with hemophilia should be managed at a comprehensive hemophilia treatment center.]
+
+CONDITION: Acute Lymphoblastic Leukemia (ALL) | ICD-10: C91.00
+PREVALENCE: 2 per 100,000
+SYMPTOMS_PRIMARY: [fatigue, fever, frequent infections, easy bruising or bleeding]
+SYMPTOMS_SECONDARY: [bone pain, lymphadenopathy, shortness of breath]
+DIFFERENTIAL: [Aplastic anemia|20%, Infectious mononucleosis|20%, Other leukemias (e.g., AML)|15%]
+RED_FLAGS: [hyperleukocytosis, tumor lysis syndrome, CNS involvement]
+DIAGNOSTIC_TESTS: [CBC with peripheral smear showing blasts, Bone marrow aspiration and biopsy]
+TREATMENT_FIRST_LINE: [Chemotherapy. Stem cell transplant may be considered.]
+SPECIALIST_REFERRAL: [All suspected cases of leukemia should be urgently referred to a hematologist/oncologist.]
+
+CONDITION: Influenza | ICD-10: J11.1
+PREVALENCE: Varies seasonally, can be very high during epidemics
+SYMPTOMS_PRIMARY: [fever, cough, sore throat, muscle aches]
+SYMPTOMS_SECONDARY: [headache, fatigue, runny or stuffy nose]
+DIFFERENTIAL: [Common cold|40%, COVID-19|30%, Pneumonia|10%]
+RED_FLAGS: [shortness of breath, chest pain, confusion, severe or persistent vomiting]
+DIAGNOSTIC_TESTS: [Rapid influenza diagnostic test (RIDT), PCR test]
+TREATMENT_FIRST_LINE: [Supportive care (rest, fluids). Antiviral medications (e.g., oseltamivir) may be used, especially in high-risk patients.]
+SPECIALIST_REFERRAL: [Severe illness requiring hospitalization.]
+
+CONDITION: COVID-19 | ICD-10: U07.1
+PREVALENCE: Varies, has been pandemic
+SYMPTOMS_PRIMARY: [fever, cough, fatigue, loss of taste or smell]
+SYMPTOMS_SECONDARY: [sore throat, headache, body aches, diarrhea]
+DIFFERENTIAL: [Influenza|40%, Common cold|30%, Allergies|10%]
+RED_FLAGS: [trouble breathing, persistent pain or pressure in the chest, new confusion, inability to wake or stay awake, pale, gray, or blue-colored skin, lips, or nail beds]
+DIAGNOSTIC_TESTS: [PCR test, Rapid antigen test]
+TREATMENT_FIRST_LINE: [Supportive care. Antiviral medications (e.g., Paxlovid, remdesivir) and other therapies for moderate to severe disease.]
+SPECIALIST_REFERRAL: [Moderate to severe illness, Patients with risk factors for severe disease.]
+
+CONDITION: HIV/AIDS | ICD-10: B20
+PREVALENCE: 370 per 100,000
+SYMPTOMS_PRIMARY: [Acute: flu-like illness. Chronic: often asymptomatic for years. AIDS: opportunistic infections, cancers]
+SYMPTOMS_SECONDARY: [weight loss, chronic diarrhea, lymphadenopathy]
+DIFFERENTIAL: [Infectious mononucleosis (acute stage)|30%, Other immunodeficiency disorders|15%, Chronic fatigue syndrome|10%]
+RED_FLAGS: [presence of an AIDS-defining illness (e.g., Pneumocystis pneumonia, Kaposi's sarcoma)]
+DIAGNOSTIC_TESTS: [HIV antibody/antigen test, HIV viral load, CD4 count]
+TREATMENT_FIRST_LINE: [Antiretroviral therapy (ART).]
+SPECIALIST_REFERRAL: [All patients with HIV should be managed by an infectious disease specialist.]
+
+CONDITION: Lyme Disease | ICD-10: A69.20
+PREVALENCE: 10 per 100,000 (higher in endemic areas)
+SYMPTOMS_PRIMARY: [erythema migrans (bull's-eye rash), fever, headache, fatigue]
+SYMPTOMS_SECONDARY: [joint pain, Bell's palsy, heart block]
+DIFFERENTIAL: [Cellulitis|20%, Viral syndrome|20%, Fibromyalgia|15%]
+RED_FLAGS: [meningitis, carditis, neurological deficits]
+DIAGNOSTIC_TESTS: [ELISA and Western blot for Lyme antibodies (may be negative in early disease).]
+TREATMENT_FIRST_LINE: [Doxycycline, amoxicillin, or cefuroxime.]
+SPECIALIST_REFERRAL: [Post-treatment Lyme disease syndrome, Complicated Lyme disease (e.g., neuroborreliosis, Lyme carditis).]
+
+CONDITION: Cellulitis | ICD-10: L03.90
+PREVALENCE: 500 per 100,000
+SYMPTOMS_PRIMARY: [red, swollen, warm, and tender area of skin]
+SYMPTOMS_SECONDARY: [fever, chills, swollen lymph nodes]
+DIFFERENTIAL: [Deep vein thrombosis (DVT)|30%, Stasis dermatitis|25%, Contact dermatitis|15%]
+RED_FLAGS: [rapidly spreading redness, signs of systemic toxicity (sepsis), crepitus (suggesting necrotizing fasciitis)]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Blood cultures if systemic toxicity is present. Ultrasound to rule out DVT or abscess.]
+TREATMENT_FIRST_LINE: [Antibiotics that cover Streptococcus and Staphylococcus (e.g., cephalexin, clindamycin).]
+SPECIALIST_REFERRAL: [Severe cellulitis requiring IV antibiotics, Failure of outpatient treatment, Recurrent cellulitis.]
+
+CONDITION: Major Depressive Disorder | ICD-10: F32.9
+PREVALENCE: 7,000 per 100,000
+SYMPTOMS_PRIMARY: [depressed mood, anhedonia (loss of interest or pleasure), fatigue]
+SYMPTOMS_SECONDARY: [changes in sleep or appetite, feelings of worthlessness or guilt, suicidal ideation]
+DIFFERENTIAL: [Bipolar disorder|20%, Dysthymia (Persistent Depressive Disorder)|20%, Adjustment disorder with depressed mood|15%]
+RED_FLAGS: [suicidal or homicidal ideation, psychosis, catatonia]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on DSM-5 criteria. Lab tests to rule out organic causes (e.g., TSH, CBC, vitamin B12).]
+TREATMENT_FIRST_LINE: [Psychotherapy, Selective serotonin reuptake inhibitors (SSRIs)]
+SPECIALIST_REFERRAL: [Treatment-resistant depression, Bipolar disorder, Psychotic features]
+
+CONDITION: Bipolar Disorder | ICD-10: F31.9
+PREVALENCE: 2,800 per 100,000
+SYMPTOMS_PRIMARY: [episodes of mania or hypomania (elevated mood, increased energy, decreased need for sleep) and depression]
+SYMPTOMS_SECONDARY: [impulsivity, grandiosity, racing thoughts (mania); depressed mood, anhedonia (depression)]
+DIFFERENTIAL: [Major depressive disorder|30%, Schizoaffective disorder|15%, Borderline personality disorder|15%]
+RED_FLAGS: [suicidal or homicidal ideation, psychosis, severe functional impairment]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on DSM-5 criteria.]
+TREATMENT_FIRST_LINE: [Mood stabilizers (e.g., lithium, valproate, lamotrigine), Atypical antipsychotics]
+SPECIALIST_REFERRAL: [All patients with bipolar disorder should be managed by a psychiatrist.]
+
+CONDITION: Generalized Anxiety Disorder (GAD) | ICD-10: F41.1
+PREVALENCE: 3,100 per 100,000
+SYMPTOMS_PRIMARY: [excessive, uncontrollable worry about multiple issues, restlessness, fatigue]
+SYMPTOMS_SECONDARY: [difficulty concentrating, irritability, muscle tension, sleep disturbance]
+DIFFERENTIAL: [Panic disorder|20%, Social anxiety disorder|15%, Hyperthyroidism|10%]
+RED_FLAGS: [suicidal ideation, comorbid substance use disorder]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on DSM-5 criteria. Lab tests to rule out organic causes (e.g., TSH).]
+TREATMENT_FIRST_LINE: [Psychotherapy (especially CBT), SSRIs or SNRIs]
+SPECIALIST_REFERRAL: [Treatment-resistant GAD, Comorbid psychiatric conditions]
+
+CONDITION: Schizophrenia | ICD-10: F20.9
+PREVALENCE: 1,000 per 100,000
+SYMPTOMS_PRIMARY: [Positive symptoms: hallucinations, delusions, disorganized speech. Negative symptoms: flat affect, alogia, avolition]
+SYMPTOMS_SECONDARY: [cognitive deficits, social withdrawal, lack of insight]
+DIFFERENTIAL: [Schizoaffective disorder|25%, Bipolar disorder with psychotic features|20%, Substance-induced psychotic disorder|15%]
+RED_FLAGS: [command hallucinations to harm self or others, catatonia, severe functional decline]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on DSM-5 criteria. Neuroimaging and lab tests to rule out other causes.]
+TREATMENT_FIRST_LINE: [Antipsychotic medications (e.g., risperidone, olanzapine, aripiprazole), Psychosocial interventions]
+SPECIALIST_REFERRAL: [All patients with schizophrenia should be managed by a psychiatrist.]
+
+CONDITION: Obsessive-Compulsive Disorder (OCD) | ICD-10: F42.9
+PREVALENCE: 1,200 per 100,000
+SYMPTOMS_PRIMARY: [Obsessions: recurrent, persistent, intrusive thoughts, urges, or images. Compulsions: repetitive behaviors or mental acts performed in response to an obsession.]
+SYMPTOMS_SECONDARY: [anxiety, distress, significant impairment in functioning]
+DIFFERENTIAL: [Anxiety disorders|25%, Obsessive-compulsive personality disorder (OCPD)|20%, Tic disorders|10%]
+RED_FLAGS: [suicidal ideation due to distress from symptoms, severe impairment in daily functioning]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on DSM-5 criteria.]
+TREATMENT_FIRST_LINE: [Psychotherapy (Exposure and Response Prevention - ERP), SSRIs (often at higher doses than for depression)]
+SPECIALIST_REFERRAL: [Treatment-resistant OCD, Severe OCD]
+
+CONDITION: Chronic Kidney Disease (CKD) | ICD-10: N18.9
+PREVALENCE: 15,000 per 100,000
+SYMPTOMS_PRIMARY: [often asymptomatic in early stages, fatigue, swelling in legs (edema)]
+SYMPTOMS_SECONDARY: [nausea, loss of appetite, changes in urination, hypertension]
+DIFFERENTIAL: [Acute kidney injury|20%, Nephrotic syndrome|15%, Heart failure|15%]
+RED_FLAGS: [uremic symptoms (e.g., pericarditis, encephalopathy), severe electrolyte abnormalities, rapid decline in GFR]
+DIAGNOSTIC_TESTS: [Estimated glomerular filtration rate (eGFR) from serum creatinine, Urine albumin-to-creatinine ratio (UACR), Renal ultrasound]
+TREATMENT_FIRST_LINE: [Management of underlying cause (e.g., diabetes, hypertension), ACE inhibitors or ARBs, Blood pressure control]
+SPECIALIST_REFERRAL: [CKD stage 3b or higher, Rapidly progressive CKD, Complications of CKD]
+
+CONDITION: Kidney Stones (Nephrolithiasis) | ICD-10: N20.0
+PREVALENCE: 1,000 per 100,000
+SYMPTOMS_PRIMARY: [severe flank pain that may radiate to the groin, hematuria (blood in urine)]
+SYMPTOMS_SECONDARY: [nausea, vomiting, painful urination]
+DIFFERENTIAL: [Pyelonephritis|25%, Ruptured ovarian cyst|15%, Aortic aneurysm|10%]
+RED_FLAGS: [fever (suggesting infected stone), anuria, intractable pain or vomiting]
+DIAGNOSTIC_TESTS: [Non-contrast CT scan of the abdomen and pelvis (gold standard), Renal ultrasound, Urinalysis]
+TREATMENT_FIRST_LINE: [Pain control (NSAIDs), Medical expulsive therapy (e.g., tamsulosin), Hydration. Procedures (e.g., lithotripsy, ureteroscopy) for larger stones or those that don't pass.]
+SPECIALIST_REFERRAL: [Large stones, Signs of obstruction or infection, Recurrent stones]
+
+CONDITION: Urinary Tract Infection (UTI) | ICD-10: N39.0
+PREVALENCE: Very common, especially in women
+SYMPTOMS_PRIMARY: [dysuria (painful urination), urinary frequency, urinary urgency]
+SYMPTOMS_SECONDARY: [suprapubic pain, hematuria, foul-smelling urine]
+DIFFERENTIAL: [Vaginitis|25%, Urethritis (e.g., from STIs)|20%, Interstitial cystitis|10%]
+RED_FLAGS: [fever, flank pain, nausea/vomiting (suggesting pyelonephritis)]
+DIAGNOSTIC_TESTS: [Urinalysis, Urine culture]
+TREATMENT_FIRST_LINE: [Antibiotics (e.g., nitrofurantoin, trimethoprim-sulfamethoxazole).]
+SPECIALIST_REFERRAL: [Recurrent UTIs, Pyelonephritis, Anatomic abnormalities]
+
+CONDITION: Benign Prostatic Hyperplasia (BPH) | ICD-10: N40.1
+PREVALENCE: 50,000 per 100,000 in men over 50
+SYMPTOMS_PRIMARY: [urinary frequency, urgency, nocturia, weak stream, hesitancy, incomplete emptying]
+SYMPTOMS_SECONDARY: [straining to urinate, dribbling at the end of urination]
+DIFFERENTIAL: [Prostate cancer|20%, Urinary tract infection|15%, Overactive bladder|15%]
+RED_FLAGS: [hematuria, urinary retention, renal insufficiency]
+DIAGNOSTIC_TESTS: [Digital rectal exam (DRE), Prostate-specific antigen (PSA), Urinalysis, Post-void residual volume]
+TREATMENT_FIRST_LINE: [Alpha-blockers (e.g., tamsulosin), 5-alpha reductase inhibitors (e.g., finasteride).]
+SPECIALIST_REFERRAL: [Severe symptoms, Complications (e.g., urinary retention), Suspicion of prostate cancer]
+
+CONDITION: Erectile Dysfunction (ED) | ICD-10: F52.21
+PREVALENCE: 20,000 per 100,000 men
+SYMPTOMS_PRIMARY: [inability to achieve or maintain an erection sufficient for satisfactory sexual performance]
+SYMPTOMS_SECONDARY: [decreased libido, anxiety]
+DIFFERENTIAL: [Cardiovascular disease|30%, Diabetes|20%, Psychological causes|20%]
+RED_FLAGS: [sudden onset, associated with trauma or neurological symptoms]
+DIAGNOSTIC_TESTS: [History and physical exam. Lab tests to screen for underlying conditions (e.g., testosterone, glucose, lipids).]
+TREATMENT_FIRST_LINE: [Phosphodiesterase-5 (PDE5) inhibitors (e.g., sildenafil, tadalafil).]
+SPECIALIST_REFERRAL: [Failure of oral therapy, Complex cases (e.g., post-prostatectomy ED)]
+
+CONDITION: Endometriosis | ICD-10: N80.9
+PREVALENCE: 10,000 per 100,000 women of reproductive age
+SYMPTOMS_PRIMARY: [dysmenorrhea (painful periods), chronic pelvic pain, dyspareunia (painful intercourse)]
+SYMPTOMS_SECONDARY: [infertility, painful urination or bowel movements during menses]
+DIFFERENTIAL: [Pelvic inflammatory disease (PID)|25%, Uterine fibroids|20%, Irritable bowel syndrome (IBS)|15%]
+RED_FLAGS: [endometrioma (ovarian cyst), bowel or bladder obstruction]
+DIAGNOSTIC_TESTS: [Laparoscopy with biopsy (gold standard for diagnosis). Transvaginal ultrasound or MRI can be suggestive.]
+TREATMENT_FIRST_LINE: [NSAIDs for pain, Hormonal contraception (e.g., combined oral contraceptives, progestin-only methods).]
+SPECIALIST_REFERRAL: [Severe symptoms, Infertility, Failure of initial treatment]
+
+CONDITION: Uterine Fibroids (Leiomyomas) | ICD-10: D25.9
+PREVALENCE: 70,000 per 100,000 women by age 50
+SYMPTOMS_PRIMARY: [heavy menstrual bleeding (menorrhagia), pelvic pain or pressure, bulk symptoms (e.g., increased abdominal girth)]
+SYMPTOMS_SECONDARY: [urinary frequency, constipation, infertility]
+DIFFERENTIAL: [Adenomyosis|30%, Endometrial polyps|20%, Ovarian cysts|15%]
+RED_FLAGS: [rapidly growing uterine mass (suspicion for sarcoma), severe anemia from bleeding]
+DIAGNOSTIC_TESTS: [Pelvic ultrasound.]
+TREATMENT_FIRST_LINE: [Watchful waiting for asymptomatic fibroids. Hormonal therapies (e.g., hormonal IUD, GnRH agonists) to control bleeding. Surgical options (myomectomy, hysterectomy) for severe symptoms.]
+SPECIALIST_REFERRAL: [Symptomatic fibroids requiring intervention, Infertility, Suspicion of malignancy]
+
+CONDITION: Polycystic Ovary Syndrome (PCOS) | ICD-10: E28.2
+PREVALENCE: 10,000 per 100,000 women of reproductive age
+SYMPTOMS_PRIMARY: [irregular menstrual periods, hyperandrogenism (e.g., hirsutism, acne), polycystic ovaries on ultrasound]
+SYMPTOMS_SECONDARY: [infertility, insulin resistance, obesity]
+DIFFERENTIAL: [Congenital adrenal hyperplasia|10%, Cushing's syndrome|5%, Hypothyroidism|10%]
+RED_FLAGS: [signs of virilization (e.g., clitoromegaly, deepening voice), endometrial hyperplasia/cancer]
+DIAGNOSTIC_TESTS: [Based on Rotterdam criteria (2 of 3: oligo/anovulation, hyperandrogenism, polycystic ovaries on ultrasound). Hormonal testing (testosterone, DHEAS), Glucose/insulin levels.]
+TREATMENT_FIRST_LINE: [Lifestyle modification (weight loss). Combined oral contraceptives for menstrual regulation and hyperandrogenism. Metformin for insulin resistance.]
+SPECIALIST_REFERRAL: [Infertility, Management of metabolic comorbidities]
+
+CONDITION: Pelvic Inflammatory Disease (PID) | ICD-10: N73.9
+PREVALENCE: 850 per 100,000 sexually active women annually
+SYMPTOMS_PRIMARY: [lower abdominal pain, cervical motion tenderness, uterine or adnexal tenderness]
+SYMPTOMS_SECONDARY: [abnormal vaginal discharge, fever, dyspareunia]
+DIFFERENTIAL: [Ectopic pregnancy|30%, Appendicitis|20%, Ovarian cyst rupture or torsion|20%]
+RED_FLAGS: [tubo-ovarian abscess, signs of sepsis, suspected surgical emergency (e.g., appendicitis, ectopic pregnancy)]
+DIAGNOSTIC_TESTS: [Pregnancy test to rule out ectopic. Nucleic acid amplification tests (NAATs) for gonorrhea and chlamydia. Transvaginal ultrasound.]
+TREATMENT_FIRST_LINE: [Broad-spectrum antibiotics (e.g., ceftriaxone plus doxycycline).]
+SPECIALIST_REFERRAL: [Severe illness requiring hospitalization, Tubo-ovarian abscess, Failure of outpatient therapy]
+
+CONDITION: Menopause | ICD-10: N95.1
+PREVALENCE: Universal in aging women (average age 51)
+SYMPTOMS_PRIMARY: [vasomotor symptoms (hot flashes, night sweats), vaginal atrophy and dryness, cessation of menses]
+SYMPTOMS_SECONDARY: [sleep disturbances, mood changes, joint pain]
+DIFFERENTIAL: [Hyperthyroidism|15%, Anxiety/depression|15%, Other causes of amenorrhea if premature]
+RED_FLAGS: [postmenopausal bleeding (must be investigated to rule out endometrial cancer)]
+DIAGNOSTIC_TESTS: [Clinical diagnosis based on age and symptoms. FSH level can be checked if diagnosis is uncertain.]
+TREATMENT_FIRST_LINE: [Hormone therapy (estrogen with or without progestin) for vasomotor symptoms. Non-hormonal options (e.g., SSRIs, gabapentin). Vaginal moisturizers and lubricants for vaginal atrophy.]
+SPECIALIST_REFERRAL: [Complex cases, Contraindications to hormone therapy, Postmenopausal bleeding]
+
+CONDITION: Osteoarthritis | ICD-10: M19.90
+PREVALENCE: 10,000 per 100,000 (increases with age)
+SYMPTOMS_PRIMARY: [joint pain that worsens with activity, stiffness that improves with activity, decreased range of motion]
+SYMPTOMS_SECONDARY: [crepitus, joint swelling, bony enlargements (e.g., Heberden's nodes)]
+DIFFERENTIAL: [Rheumatoid arthritis|25%, Psoriatic arthritis|15%, Gout|10%]
+RED_FLAGS: [red, hot, swollen joint (suggesting septic arthritis), neurological deficits]
+DIAGNOSTIC_TESTS: [X-rays of affected joints (showing joint space narrowing, osteophytes).]
+TREATMENT_FIRST_LINE: [Exercise (physical therapy), Weight loss, Acetaminophen, NSAIDs (topical or oral).]
+SPECIALIST_REFERRAL: [Severe, disabling osteoarthritis for consideration of joint replacement surgery.]
+
+CONDITION: Fibromyalgia | ICD-10: M79.7
+PREVALENCE: 2,000 per 100,000
+SYMPTOMS_PRIMARY: [widespread musculoskeletal pain, fatigue, sleep disturbances]
+SYMPTOMS_SECONDARY: [cognitive difficulties ("fibro fog"), headaches, irritable bowel syndrome]
+DIFFERENTIAL: [Hypothyroidism|20%, Rheumatoid arthritis|15%, Lupus (SLE)|10%]
+RED_FLAGS: [objective signs of inflammation, neurological deficits, or other systemic disease]
+DIAGNOSTIC_TESTS: [Diagnosis of exclusion, based on clinical criteria (e.g., widespread pain index, symptom severity scale). Lab tests to rule out other conditions.]
+TREATMENT_FIRST_LINE: [Patient education, Exercise, Cognitive behavioral therapy (CBT). Medications such as duloxetine, milnacipran, or pregabalin.]
+SPECIALIST_REFERRAL: [Diagnostic uncertainty, Management of complex, refractory cases.]
+
+CONDITION: Low Back Pain | ICD-10: M54.5
+PREVALENCE: Very common, affects up to 80% of adults at some point
+SYMPTOMS_PRIMARY: [pain in the lumbosacral area, muscle spasm]
+SYMPTOMS_SECONDARY: [stiffness, decreased range of motion]
+DIFFERENTIAL: [Lumbar disc herniation|20%, Spinal stenosis|15%, Ankylosing spondylitis|5%]
+RED_FLAGS: [cauda equina syndrome (saddle anesthesia, bowel/bladder incontinence), unexplained weight loss, fever, history of cancer, major trauma]
+DIAGNOSTIC_TESTS: [Usually not indicated for acute, non-specific low back pain. MRI if red flags are present or pain persists.]
+TREATMENT_FIRST_LINE: [Stay active, Physical therapy, NSAIDs, Muscle relaxants.]
+SPECIALIST_REFERRAL: [Presence of red flags, Neurological deficits, Persistent, disabling pain]
+
+CONDITION: Carpal Tunnel Syndrome | ICD-10: G56.00
+PREVALENCE: 5,000 per 100,000
+SYMPTOMS_PRIMARY: [numbness, tingling, and pain in the thumb, index, middle, and radial half of the ring finger]
+SYMPTOMS_SECONDARY: [weakness of the hand, dropping objects, symptoms worse at night]
+DIFFERENTIAL: [Cervical radiculopathy|30%, Peripheral neuropathy|20%, Tendinitis|15%]
+RED_FLAGS: [thenar muscle atrophy, persistent numbness or weakness]
+DIAGNOSTIC_TESTS: [Nerve conduction studies (NCS) and electromyography (EMG).]
+TREATMENT_FIRST_LINE: [Wrist splinting (especially at night), NSAIDs, Corticosteroid injections.]
+SPECIALIST_REFERRAL: [Failure of conservative treatment, Severe symptoms (e.g., muscle atrophy), for consideration of surgical release.]
+
+CONDITION: Plantar Fasciitis | ICD-10: M72.2
+PREVALENCE: 1,000 per 100,000
+SYMPTOMS_PRIMARY: [stabbing pain in the bottom of the foot near the heel, pain is usually worst with the first steps in the morning]
+SYMPTOMS_SECONDARY: [pain that is worse after exercise (not during it), limping]
+DIFFERENTIAL: [Heel fat pad atrophy|20%, Stress fracture of the calcaneus|15%, Tarsal tunnel syndrome|10%]
+RED_FLAGS: [pain at rest, night pain, signs of infection or trauma]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Imaging (X-ray, ultrasound) can be used to rule out other causes.]
+TREATMENT_FIRST_LINE: [Stretching exercises, Supportive footwear/orthotics, NSAIDs.]
+SPECIALIST_REFERRAL: [Failure of conservative treatment after 6-12 months.]
+
+CONDITION: Allergic Rhinitis | ICD-10: J30.9
+PREVALENCE: 20,000 per 100,000
+SYMPTOMS_PRIMARY: [sneezing, rhinorrhea (runny nose), nasal congestion, nasal itching]
+SYMPTOMS_SECONDARY: [itchy/watery eyes, postnasal drip, cough]
+DIFFERENTIAL: [Nonallergic rhinitis|30%, Acute viral rhinosinusitis (common cold)|25%, Chronic rhinosinusitis|10%]
+RED_FLAGS: [unilateral symptoms, facial pain, epistaxis (nosebleeds)]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Allergy testing (skin prick or serum IgE) can confirm allergens.]
+TREATMENT_FIRST_LINE: [Intranasal corticosteroids, Oral antihistamines.]
+SPECIALIST_REFERRAL: [Inadequate response to treatment, Consideration for immunotherapy.]
+
+CONDITION: Acute Otitis Media | ICD-10: H66.90
+PREVALENCE: Very common in young children
+SYMPTOMS_PRIMARY: [otalgia (ear pain), fever, irritability (in infants)]
+SYMPTOMS_SECONDARY: [hearing loss, ear drainage, pulling at the ear]
+DIFFERENTIAL: [Otitis media with effusion|30%, Otitis externa|20%, Referred pain (e.g., from teething or pharyngitis)|15%]
+RED_FLAGS: [mastoiditis, facial nerve palsy, labyrinthitis]
+DIAGNOSTIC_TESTS: [Otoscopy showing a bulging, erythematous tympanic membrane with poor mobility.]
+TREATMENT_FIRST_LINE: [Watchful waiting in certain cases. Amoxicillin is the first-line antibiotic when treatment is indicated.]
+SPECIALIST_REFERRAL: [Recurrent acute otitis media, Chronic otitis media with effusion, Complications.]
+
+CONDITION: Chronic Rhinosinusitis | ICD-10: J32.9
+PREVALENCE: 12,000 per 100,000
+SYMPTOMS_PRIMARY: [nasal congestion, facial pain/pressure, nasal discharge, decreased sense of smell for >12 weeks]
+SYMPTOMS_SECONDARY: [headache, fatigue, dental pain]
+DIFFERENTIAL: [Allergic rhinitis|30%, Recurrent acute rhinosinusitis|20%, Migraine|10%]
+RED_FLAGS: [vision changes, severe headache, signs of orbital or intracranial extension]
+DIAGNOSTIC_TESTS: [Nasal endoscopy, CT scan of the sinuses.]
+TREATMENT_FIRST_LINE: [Nasal saline irrigation, Intranasal corticosteroids. Antibiotics for bacterial exacerbations.]
+SPECIALIST_REFERRAL: [Failure of medical therapy, Presence of nasal polyps, for consideration of endoscopic sinus surgery.]
+
+CONDITION: Pharyngitis (Sore Throat) | ICD-10: J02.9
+PREVALENCE: Very common
+SYMPTOMS_PRIMARY: [sore throat, pain with swallowing]
+SYMPTOMS_SECONDARY: [fever, tonsillar exudates, cervical lymphadenopathy]
+DIFFERENTIAL: [Viral pharyngitis (most common)|70%, Group A Streptococcus (Strep throat)|20%, Infectious mononucleosis|5%]
+RED_FLAGS: [muffled voice, drooling, trismus (difficulty opening mouth) - suggesting peritonsillar abscess]
+DIAGNOSTIC_TESTS: [Rapid antigen detection test (RADT) for Group A Strep, Throat culture.]
+TREATMENT_FIRST_LINE: [Supportive care for viral pharyngitis. Penicillin or amoxicillin for Strep throat.]
+SPECIALIST_REFERRAL: [Peritonsillar abscess, Recurrent severe tonsillitis.]
+
+CONDITION: Laryngitis | ICD-10: J04.0
+PREVALENCE: Common
+SYMPTOMS_PRIMARY: [hoarseness, weak voice or voice loss]
+SYMPTOMS_SECONDARY: [sore throat, dry cough, tickling sensation in the throat]
+DIFFERENTIAL: [Vocal cord nodules/polyps|15%, Laryngopharyngeal reflux|15%, Vocal cord paralysis|5%]
+RED_FLAGS: [hoarseness lasting > 2-3 weeks (especially in a smoker), difficulty breathing, hemoptysis]
+DIAGNOSTIC_TESTS: [Clinical diagnosis for acute viral laryngitis. Laryngoscopy if hoarseness persists.]
+TREATMENT_FIRST_LINE: [Voice rest, Humidification.]
+SPECIALIST_REFERRAL: [Persistent hoarseness, Suspicion of laryngeal cancer.]
+
+CONDITION: Cataracts | ICD-10: H26.9
+PREVALENCE: Very common with age, >50% of people over 80
+SYMPTOMS_PRIMARY: [cloudy or blurry vision, faded colors, glare (especially at night)]
+SYMPTOMS_SECONDARY: [poor night vision, double vision in one eye, frequent prescription changes]
+DIFFERENTIAL: [Refractive error|30%, Age-related macular degeneration|15%, Diabetic retinopathy|10%]
+RED_FLAGS: [sudden vision loss, eye pain]
+DIAGNOSTIC_TESTS: [Slit-lamp examination.]
+TREATMENT_FIRST_LINE: [Cataract surgery.]
+SPECIALIST_REFERRAL: [All patients with visually significant cataracts.]
+
+CONDITION: Glaucoma | ICD-10: H40.9
+PREVALENCE: 2,000 per 100,000 (increases with age)
+SYMPTOMS_PRIMARY: [Open-angle: often asymptomatic until significant vision loss has occurred. Angle-closure: severe eye pain, nausea, blurred vision, halos around lights]
+SYMPTOMS_SECONDARY: [gradual loss of peripheral vision (open-angle)]
+DIFFERENTIAL: [Cataracts|20%, Optic neuropathy from other causes|15%, Uveitis|10%]
+RED_FLAGS: [acute angle-closure crisis (severe pain, red eye, fixed mid-dilated pupil)]
+DIAGNOSTIC_TESTS: [Tonometry (measures intraocular pressure), Ophthalmoscopy (examines optic nerve), Perimetry (visual field testing), Gonioscopy (examines drainage angle).]
+TREATMENT_FIRST_LINE: [Prostaglandin analog eye drops (e.g., latanoprost) to lower intraocular pressure.]
+SPECIALIST_REFERRAL: [All patients with glaucoma should be managed by an ophthalmologist.]
+
+CONDITION: Age-Related Macular Degeneration (AMD) | ICD-10: H35.30
+PREVALENCE: 1,500 per 100,000 (increases significantly with age)
+SYMPTOMS_PRIMARY: [blurred or distorted central vision, dark or empty area in the center of vision]
+SYMPTOMS_SECONDARY: [straight lines appearing wavy (metamorphopsia), difficulty reading]
+DIFFERENTIAL: [Diabetic retinopathy|20%, Central serous chorioretinopathy|15%, Macular hole|10%]
+RED_FLAGS: [sudden change or worsening of central vision (suggesting conversion to wet AMD)]
+DIAGNOSTIC_TESTS: [Amsler grid, Fundoscopic exam, Optical coherence tomography (OCT), Fluorescein angiography.]
+TREATMENT_FIRST_LINE: [Dry AMD: AREDS2 vitamin formulation. Wet AMD: Intravitreal anti-VEGF injections (e.g., ranibizumab, aflibercept).]
+SPECIALIST_REFERRAL: [All patients with AMD should be managed by an ophthalmologist.]
+
+CONDITION: Diabetic Retinopathy | ICD-10: E11.319
+PREVALENCE: 40% of patients with diabetes
+SYMPTOMS_PRIMARY: [often asymptomatic in early stages, floaters, blurred vision, vision loss]
+SYMPTOMS_SECONDARY: [fluctuating vision, dark spots in vision]
+DIFFERENTIAL: [Hypertensive retinopathy|25%, Retinal vein occlusion|20%, Age-related macular degeneration|15%]
+RED_FLAGS: [sudden vision loss, retinal detachment]
+DIAGNOSTIC_TESTS: [Dilated fundoscopic exam, Optical coherence tomography (OCT), Fluorescein angiography.]
+TREATMENT_FIRST_LINE: [Control of blood glucose, blood pressure, and lipids. Panretinal photocoagulation (laser surgery), Intravitreal anti-VEGF injections.]
+SPECIALIST_REFERRAL: [All patients with diabetes should have regular eye exams. Referral to an ophthalmologist for management of any stage of retinopathy.]
+
+CONDITION: Conjunctivitis (Pink Eye) | ICD-10: H10.9
+PREVALENCE: Very common
+SYMPTOMS_PRIMARY: [redness in the white of the eye, increased tearing, discharge (watery for viral, purulent for bacterial)]
+SYMPTOMS_SECONDARY: [itching, gritty feeling, crusting of eyelids in the morning]
+DIFFERENTIAL: [Allergic conjunctivitis|30%, Viral conjunctivitis|40%, Bacterial conjunctivitis|20%]
+RED_FLAGS: [eye pain, photophobia, reduced visual acuity, corneal opacity, ciliary flush]
+DIAGNOSTIC_TESTS: [Clinical diagnosis. Cultures are usually not necessary.]
+TREATMENT_FIRST_LINE: [Viral: supportive care (cool compresses, artificial tears). Bacterial: topical antibiotic eye drops. Allergic: topical antihistamines/mast cell stabilizers.]
+SPECIALIST_REFERRAL: [Signs of more serious condition (red flags), Failure to improve, Neonatal conjunctivitis.]
+
+CONDITION: Peripheral Artery Disease (PAD) | ICD-10: I73.9
+PREVALENCE: 8,500 per 100,000
+SYMPTOMS_PRIMARY: [claudication (pain in legs with exertion), weak or absent pulses in the legs or feet]
+SYMPTOMS_SECONDARY: [sores or ulcers on the feet or legs that won't heal, cool skin temperature in the affected limb]
+DIFFERENTIAL: [Spinal stenosis|30%, Diabetic neuropathy|25%, Deep vein thrombosis (DVT)|10%]
+RED_FLAGS: [acute limb ischemia (pain, pallor, pulselessness, paralysis, paresthesia, poikilothermia)]
+DIAGNOSTIC_TESTS: [Ankle-brachial index (ABI), Doppler ultrasound, Angiography]
+TREATMENT_FIRST_LINE: [Smoking cessation, Supervised exercise therapy, Statins, Antiplatelet agents (aspirin or clopidogrel)]
+SPECIALIST_REFERRAL: [Critical limb ischemia, Failure of medical management]
+
+CONDITION: Deep Vein Thrombosis (DVT) | ICD-10: I82.40
+PREVALENCE: 100 per 100,000
+SYMPTOMS_PRIMARY: [swelling, pain, and tenderness in one leg (usually the calf)]
+SYMPTOMS_SECONDARY: [warm skin in the area of the clot, red or discolored skin]
+DIFFERENTIAL: [Cellulitis|30%, Baker's cyst rupture|20%, Muscle strain|15%]
+RED_FLAGS: [signs of pulmonary embolism (chest pain, shortness of breath)]
+DIAGNOSTIC_TESTS: [D-dimer, Compression ultrasound of the leg]
+TREATMENT_FIRST_LINE: [Anticoagulation (e.g., DOACs, warfarin)]
+SPECIALIST_REFERRAL: [Massive DVT (e.g., phlegmasia cerulea dolens), Recurrent DVT, Contraindication to anticoagulation]
+
+CONDITION: Bronchiectasis | ICD-10: J47.9
+PREVALENCE: 100 per 100,000
+SYMPTOMS_PRIMARY: [chronic cough with large amounts of purulent sputum, recurrent respiratory infections]
+SYMPTOMS_SECONDARY: [dyspnea, hemoptysis, fatigue]
+DIFFERENTIAL: [COPD|35%, Asthma|20%, Chronic bronchitis|15%]
+RED_FLAGS: [massive hemoptysis, respiratory failure]
+DIAGNOSTIC_TESTS: [High-resolution CT scan of the chest (gold standard), Sputum culture, Pulmonary function tests

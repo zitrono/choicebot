@@ -1,0 +1,130 @@
+Loaded cached credentials.
+SYMPTOM: Headache
+URGENCY_LEVELS:
+- EMERGENCY: Thunderclap onset, "worst headache of life", with fever/stiff neck, after head trauma
+- URGENT: New onset, severe, associated with neurological deficits (vision change, weakness)
+- ROUTINE: Recurrent, typical for patient (e.g., migraine, tension)
+- SELF_CARE: Mild, responds to over-the-counter (OTC) analgesics
+DIAGNOSTIC_FUNNEL:
+Q1: Is this the worst headache of your life or thunderclap onset? -> YES: Call 911 | NO: Q2
+Q2: Are there neurological symptoms like vision loss or weakness? -> YES: Urgent care/ER | NO: Q3
+Q3: Is this a typical headache for you? -> YES: Follow usual treatment | NO: See PCP
+LIKELY_CONDITIONS: Migraine|40%, Tension Headache|30%, Subarachnoid Hemorrhage|5%, Meningitis|5%
+ASSESSMENT_TOOLS: CT Head, MRI Brain, Lumbar Puncture
+
+SYMPTOM: Shortness of Breath
+URGENCY_LEVELS:
+- EMERGENCY: Unable to speak in full sentences, cyanosis, chest pain
+- URGENT: Worsening with minimal exertion, associated with leg swelling (edema)
+- ROUTINE: Predictable with heavy exertion, known asthma/COPD
+- SELF_CARE: Only with strenuous activity, resolves quickly
+DIAGNOSTIC_FUNNEL:
+Q1: Are you unable to speak or are your lips/face blue? -> YES: Call 911 | NO: Q2
+Q2: Is it worsening or associated with new leg swelling? -> YES: Urgent care/ER | NO: Q3
+Q3: Is this your usual pattern for a known condition? -> YES: Use rescue inhaler/follow plan | NO: See PCP
+LIKELY_CONDITIONS: Heart Failure|25%, Pulmonary Embolism|20%, Asthma/COPD Exacerbation|30%, Pneumonia|15%
+ASSESSMENT_TOOLS: Chest X-ray, ECG, D-dimer, BNP, CT Angiogram
+
+SYMPTOM: Abdominal Pain
+URGENCY_LEVELS:
+- EMERGENCY: Sudden, severe, rigid abdomen, fever, hematemesis
+- URGENT: Localized (e.g., RLQ), persistent vomiting, bloody stool
+- ROUTINE: Dull, cramping, intermittent, related to meals
+- SELF_CARE: Mild indigestion, gas pain
+DIAGNOSTIC_FUNNEL:
+Q1: Is the pain sudden/severe with a rigid abdomen? -> YES: Call 911/ER | NO: Q2
+Q2: Is pain localized to one area or is there blood in stool/vomit? -> YES: Urgent care | NO: Q3
+Q3: Is it a familiar cramping or meal-related pain? -> YES: Dietary changes/antacids | NO: See PCP
+LIKELY_CONDITIONS: Gastroenteritis|30%, Appendicitis|20%, Gastritis|20%, Bowel Obstruction|10%
+ASSESSMENT_TOOLS: CT Abdomen/Pelvis, Ultrasound, Endoscopy, CBC
+
+SYMPTOM: Fever
+URGENCY_LEVELS:
+- EMERGENCY: >104°F (40°C) with confusion, stiff neck, rash
+- URGENT: >102°F (38.9°C) for 3+ days, associated with severe local pain (e.g., throat, ear)
+- ROUTINE: Low-grade <102°F, with cold/flu symptoms
+- SELF_CARE: <101°F (38.3°C), minimal symptoms, responds to antipyretics
+DIAGNOSTIC_FUNNEL:
+Q1: Is there confusion, stiff neck, or a non-blanching rash? -> YES: Call 911/ER | NO: Q2
+Q2: Has the fever been high for several days or is there severe local pain? -> YES: Urgent care | NO: Q3
+Q3: Are symptoms consistent with a simple cold? -> YES: Rest, fluids, antipyretics | NO: See PCP
+LIKELY_CONDITIONS: Viral URI|50%, Bacterial Infection (e.g., Strep)|20%, UTI|15%, Influenza|10%
+ASSESSMENT_TOOLS: CBC, Urinalysis, Blood Cultures, Chest X-ray, Rapid Strep/Flu test
+
+SYMPTOM: Dizziness
+URGENCY_LEVELS:
+- EMERGENCY: Sudden onset, with chest pain, headache, facial droop, ataxia (unsteady gait)
+- URGENT: Vertigo (room spinning), persistent, associated with hearing loss or vomiting
+- ROUTINE: Positional (BPPV), lightheadedness on standing (orthostatic)
+- SELF_CARE: Mild, fleeting lightheadedness
+DIAGNOSTIC_FUNNEL:
+Q1: Is there chest pain, weakness, or trouble walking/speaking? -> YES: Call 911 | NO: Q2
+Q2: Is the room spinning or are you persistently vomiting? -> YES: Urgent care | NO: Q3
+Q3: Does it only happen when you change positions? -> YES: Epley maneuver/See PCP | NO: See PCP
+LIKELY_CONDITIONS: BPPV|30%, Vestibular Neuritis|20%, Orthostatic Hypotension|20%, Stroke|5%
+ASSESSMENT_TOOLS: Dix-Hallpike test, HINTS exam, MRI Brain, ECG
+
+SYMPTOM: Cough
+URGENCY_LEVELS:
+- EMERGENCY: With severe shortness of breath, coughing up blood (hemoptysis), chest pain
+- URGENT: Productive cough for >2 weeks, fever, wheezing
+- ROUTINE: Dry cough after viral illness, seasonal allergies
+- SELF_CARE: Mild cough with a common cold
+DIAGNOSTIC_FUNNEL:
+Q1: Are you coughing up blood or struggling to breathe? -> YES: Call 911/ER | NO: Q2
+Q2: Has it lasted weeks or is it associated with fever and wheezing? -> YES: Urgent care | NO: Q3
+Q3: Is it a dry, lingering cough after a cold? -> YES: OTC remedies, hydration | NO: See PCP
+LIKELY_CONDITIONS: Bronchitis|40%, Pneumonia|20%, Post-viral cough|20%, GERD|10%
+ASSESSMENT_TOOLS: Chest X-ray, Sputum Culture, Pulmonary Function Tests
+
+SYMPTOM: Back Pain
+URGENCY_LEVELS:
+- EMERGENCY: After trauma, with bowel/bladder incontinence, saddle anesthesia
+- URGENT: New weakness in legs, unrelenting night pain, unexplained weight loss
+- ROUTINE: Muscular, aching, worse with activity, better with rest
+- SELF_CARE: Mild muscle strain, known chronic pain flare-up
+DIAGNOSTIC_FUNNEL:
+Q1: Is there loss of bowel/bladder control or numbness in the groin? -> YES: Call 911/ER | NO: Q2
+Q2: Is there new leg weakness or pain that wakes you from sleep? -> YES: Urgent care | NO: Q3
+Q3: Is it a familiar muscle ache? -> YES: Rest, ice/heat, stretching | NO: See PCP
+LIKELY_CONDITIONS: Muscle Strain|60%, Disc Herniation|20%, Spinal Stenosis|10%, Cauda Equina Syndrome|1%
+ASSESSMENT_TOOLS: MRI Spine, CT Spine, X-ray, Neurological Exam
+
+SYMPTOM: Rash
+URGENCY_LEVELS:
+- EMERGENCY: Petechial/purpuric (non-blanching), with fever, affecting mucous membranes (Stevens-Johnson)
+- URGENT: Spreading rapidly, painful, blistering, signs of infection (pus, warmth)
+- ROUTINE: Localized, itchy, consistent with eczema or contact dermatitis
+- SELF_CARE: Mild, localized, non-painful (e.g., insect bite, dry skin)
+DIAGNOSTIC_FUNNEL:
+Q1: Does the rash not fade with pressure (glass test) and is there a fever? -> YES: Call 911/ER | NO: Q2
+Q2: Is it spreading fast, blistering, or showing signs of infection? -> YES: Urgent care | NO: Q3
+Q3: Is it a familiar itchy patch like eczema? -> YES: Use prescribed topicals | NO: See PCP
+LIKELY_CONDITIONS: Contact Dermatitis|30%, Viral Exanthem|20%, Urticaria (Hives)|20%, Cellulitis|10%
+ASSESSMENT_TOOLS: Physical Exam, Skin Biopsy, Bacterial/Fungal Culture
+
+SYMPTOM: Nausea and Vomiting
+URGENCY_LEVELS:
+- EMERGENCY: Vomiting blood (hematemesis), severe headache/stiff neck, confusion
+- URGENT: Unable to keep down any fluids for >12 hours, severe abdominal pain, dehydration signs
+- ROUTINE: Associated with known migraine, morning sickness, gastroenteritis
+- SELF_CARE: Mild, self-limited, after dietary indiscretion
+DIAGNOSTIC_FUNNEL:
+Q1: Are you vomiting blood or do you have a severe headache and confusion? -> YES: Call 911/ER | NO: Q2
+Q2: Are you unable to tolerate any liquids or showing signs of dehydration? -> YES: Urgent care | NO: Q3
+Q3: Is this related to a known condition or a simple stomach bug? -> YES: Sip clear fluids, BRAT diet | NO: See PCP
+LIKELY_CONDITIONS: Gastroenteritis|50%, Food Poisoning|20%, Migraine|10%, Medication side effect|10%
+ASSESSMENT_TOOLS: Abdominal Exam, Electrolyte Panel, Liver Function Tests, CT Head
+
+SYMPTOM: Leg Swelling (Edema)
+URGENCY_LEVELS:
+- EMERGENCY: Sudden, unilateral (one-sided), painful, with shortness of breath
+- URGENT: Bilateral, pitting, worsening, associated with weight gain
+- ROUTINE: Mild, improves with elevation, occurs after long periods of standing
+- SELF_CARE: Minor puffiness in ankles, resolves overnight
+DIAGNOSTIC_FUNNEL:
+Q1: Is the swelling in one leg only, painful, and are you short of breath? -> YES: Call 911/ER | NO: Q2
+Q2: Is it in both legs, getting worse, and leaving a pit when you press on it? -> YES: Urgent care | NO: Q3
+Q3: Is it mild and goes away when you put your feet up? -> YES: Compression stockings, elevation | NO: See PCP
+LIKELY_CONDITIONS: Deep Vein Thrombosis (DVT)|20%, Heart Failure|30%, Chronic Venous Insufficiency|30%, Lymphedema|5%
+ASSESSMENT_TOOLS: Doppler Ultrasound, D-dimer, BNP, Renal Function Panel

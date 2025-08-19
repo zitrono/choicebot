@@ -17,18 +17,39 @@ export class PromptLoader {
    * Can load from file or use inline prompt
    */
   getSystemPrompt(): string {
-    // For now, keep using the existing Verbier prompt system
-    // In future, this would load from config.ai.prompts.systemPromptFile
-    // or use inline prompts from config
-    
+    // Check for specific prompt file configurations
     if (this.config.id === 'verbier') {
       // Use existing Verbier prompt system for backward compatibility
       const { getSystemPrompt } = require('@/prompts/verbier-system-prompt');
       return getSystemPrompt();
     }
     
-    // For other configs, use fallback prompt
-    return this.config.ai.prompts.fallbackPrompt;
+    if (this.config.id === 'medical') {
+      // Use medical diagnostic prompt system
+      const { getMedicalSystemPrompt } = require('@/prompts/medical-system-prompt');
+      return getMedicalSystemPrompt();
+    }
+    
+    // For other configs, check if systemPromptFile is specified
+    if (this.config.ai.prompts.systemPromptFile) {
+      try {
+        // Try to load the prompt file dynamically
+        const promptModule = require(`@/${this.config.ai.prompts.systemPromptFile.replace('.ts', '')}`);
+        if (promptModule.getSystemPrompt) {
+          return promptModule.getSystemPrompt();
+        }
+        // Handle configs with different function names
+        const funcName = `get${this.config.id.charAt(0).toUpperCase()}${this.config.id.slice(1)}SystemPrompt`;
+        if (promptModule[funcName]) {
+          return promptModule[funcName]();
+        }
+      } catch (error) {
+        console.error(`Failed to load system prompt from ${this.config.ai.prompts.systemPromptFile}:`, error);
+      }
+    }
+    
+    // Fall back to inline prompt
+    return this.replaceVariables(this.config.ai.prompts.fallbackPrompt);
   }
   
   /**
@@ -43,6 +64,29 @@ export class PromptLoader {
       // Use existing Verbier personalization for backward compatibility
       const { getPersonalizationFramework } = require('@/prompts/verbier-system-prompt');
       return getPersonalizationFramework();
+    }
+    
+    if (this.config.id === 'medical') {
+      // Use medical diagnostic framework
+      const { getMedicalDiagnosticFramework } = require('@/prompts/medical-system-prompt');
+      return getMedicalDiagnosticFramework();
+    }
+    
+    // For other configs with personalization enabled, try to load from file
+    if (this.config.ai.prompts.systemPromptFile) {
+      try {
+        const promptModule = require(`@/${this.config.ai.prompts.systemPromptFile.replace('.ts', '')}`);
+        if (promptModule.getPersonalizationFramework) {
+          return promptModule.getPersonalizationFramework();
+        }
+        // Handle configs with different function names
+        const funcName = `get${this.config.id.charAt(0).toUpperCase()}${this.config.id.slice(1)}DiagnosticFramework`;
+        if (promptModule[funcName]) {
+          return promptModule[funcName]();
+        }
+      } catch (error) {
+        console.error(`Failed to load personalization framework:`, error);
+      }
     }
     
     return null;
@@ -60,6 +104,12 @@ export class PromptLoader {
       // Use existing Verbier content loader for backward compatibility
       const { getVerbierContentOnly } = require('@/prompts/verbier-system-prompt');
       return getVerbierContentOnly();
+    }
+    
+    if (this.config.id === 'medical') {
+      // Use medical content loader
+      const { getMedicalContentOnly } = require('@/prompts/medical-system-prompt');
+      return getMedicalContentOnly();
     }
     
     // For other configs, try to load the data file directly
