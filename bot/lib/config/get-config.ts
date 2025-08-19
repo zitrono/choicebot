@@ -13,17 +13,19 @@ const configs = new Map<string, BotConfig>([
  * Get configuration by ID or path
  * This works in both server and edge runtime
  */
-export function getConfig(configId?: string): BotConfig {
-  // Default to verbier for backward compatibility
-  const id = configId || 'verbier';
+export function getConfig(configId?: string): BotConfig | null {
+  // No default - must specify a valid config
+  if (!configId) {
+    return null;
+  }
   
-  return configs.get(id) || verbierConfig;
+  return configs.get(configId) || null;
 }
 
 /**
  * Get configuration from URL pathname
  */
-export function getConfigFromPath(pathname: string): BotConfig {
+export function getConfigFromPath(pathname: string): BotConfig | null {
   // Extract config ID from path (e.g., /verbier/chat -> verbier)
   const segments = pathname.split('/').filter(Boolean);
   
@@ -32,6 +34,6 @@ export function getConfigFromPath(pathname: string): BotConfig {
     return getConfig(segments[0]);
   }
   
-  // Default to verbier config
-  return getConfig();
+  // No default - return null if no valid config found
+  return null;
 }

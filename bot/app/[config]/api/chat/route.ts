@@ -29,7 +29,7 @@ interface ChatRequest {
   messages: Array<UIMessage>;
 }
 
-export async function POST(request: Request) {
+export async function POST(request: Request, { params }: { params: { config: string } }) {
   // Declare variables outside try block for access in catch block
   let totalRequestSize = 0;
   let startTime = Date.now();
@@ -73,8 +73,11 @@ export async function POST(request: Request) {
       };
     });
 
-  // Load configuration
-  const config = getConfig();
+  // Load configuration from URL param
+  const config = getConfig(params.config);
+  if (!config) {
+    return new Response("Invalid configuration", { status: 404 });
+  }
   const promptLoader = new PromptLoader(config);
   
   // Initialize file upload on first request (if configured)

@@ -1,8 +1,8 @@
 "use client";
 
 import { useChat } from "@ai-sdk/react";
-import { UIMessage, CreateUIMessage, generateId } from "ai";
-import { useState, useCallback, useEffect } from "react";
+import { UIMessage, CreateUIMessage, generateId, DefaultChatTransport } from "ai";
+import { useState, useCallback, useEffect, useMemo } from "react";
 
 import { Message as PreviewMessage } from "@/components/custom/message";
 import { useScrollToBottom } from "@/components/custom/use-scroll-to-bottom";
@@ -15,10 +15,20 @@ import { Overview } from "./overview";
 export function Chat({
   id,
   initialMessages,
+  configId,
 }: {
   id: string;
   initialMessages: Array<UIMessage>;
+  configId: string;
 }) {
+  // Create transport with custom API path
+  const transport = useMemo(
+    () => new DefaultChatTransport({
+      api: `/${configId}/api/chat`
+    }),
+    [configId]
+  );
+
   const { 
     messages = [], 
     sendMessage,
@@ -27,9 +37,10 @@ export function Chat({
     error
   } = useChat<ChatUIMessage>({
     id,
+    transport,
     onFinish: () => {
       if (typeof window !== 'undefined') {
-        window.history.replaceState({}, "", `/chat/${id}`);
+        window.history.replaceState({}, "", `/${configId}/chat/${id}`);
       }
     },
     onError: (error) => {

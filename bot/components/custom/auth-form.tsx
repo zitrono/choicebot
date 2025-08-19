@@ -1,5 +1,4 @@
 import { Input } from "../ui/input";
-import { Label } from "../ui/label";
 
 export function AuthForm({
   action,
@@ -13,12 +12,12 @@ export function AuthForm({
   return (
     <form action={action} className="flex flex-col gap-4 px-4 sm:px-16">
       <div className="flex flex-col gap-2">
-        <Label
+        <label
           htmlFor="email"
-          className="text-zinc-600 font-normal dark:text-zinc-400"
+          className="text-sm font-medium leading-none text-zinc-600 font-normal dark:text-zinc-400"
         >
           Email Address
-        </Label>
+        </label>
 
         <Input
           id="email"
@@ -31,12 +30,12 @@ export function AuthForm({
           defaultValue={defaultEmail}
         />
 
-        <Label
+        <label
           htmlFor="password"
-          className="text-zinc-600 font-normal dark:text-zinc-400"
+          className="text-sm font-medium leading-none text-zinc-600 font-normal dark:text-zinc-400"
         >
           Password
-        </Label>
+        </label>
 
         <Input
           id="password"

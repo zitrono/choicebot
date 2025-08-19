@@ -15,7 +15,10 @@ import {
 
 export const Navbar = async () => {
   let session = await auth();
-  const config = getConfig();
+  
+  // Try to get config from the current path (this is a workaround for now)
+  // In a proper implementation, we'd pass the config as a prop
+  const config = null; // We'll show a generic navbar on root pages
 
   return (
     <>
@@ -23,7 +26,7 @@ export const Navbar = async () => {
         <div className="flex flex-row gap-3 items-center">
           <History user={session?.user} />
           <div className="text-sm dark:text-zinc-300 font-medium">
-            {config.branding.navbarTitle}
+            {config?.branding?.navbarTitle || "Choice Bot"}
           </div>
         </div>
 

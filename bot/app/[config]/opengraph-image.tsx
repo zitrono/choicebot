@@ -1,18 +1,22 @@
 import { ImageResponse } from 'next/og';
 import { getConfig } from '@/lib/config/get-config';
+import { notFound } from 'next/navigation';
 
 export const runtime = 'edge';
 
-const config = getConfig();
-
-export const alt = config.ui.openGraph.alt;
 export const size = {
   width: 1200,
   height: 630,
 };
 export const contentType = 'image/png';
 
-export default async function Image() {
+export default async function Image({ params }: { params: { config: string } }) {
+  const config = getConfig(params.config);
+  
+  if (!config) {
+    notFound();
+  }
+
   return new ImageResponse(
     (
       <div
@@ -79,4 +83,18 @@ export default async function Image() {
       ...size,
     }
   );
+}
+
+export async function generateImageMetadata({ params }: { params: { config: string } }) {
+  const config = getConfig(params.config);
+  
+  if (!config) {
+    return {
+      alt: 'Not Found'
+    };
+  }
+  
+  return {
+    alt: config.ui.openGraph.alt
+  };
 }

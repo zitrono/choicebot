@@ -20,33 +20,18 @@ export class PromptLoader {
     // Check for specific prompt file configurations
     if (this.config.id === 'verbier') {
       // Use existing Verbier prompt system for backward compatibility
-      const { getSystemPrompt } = require('@/prompts/verbier-system-prompt');
+      const { getSystemPrompt } = require('../../prompts/verbier-system-prompt');
       return getSystemPrompt();
     }
     
     if (this.config.id === 'medical') {
       // Use medical diagnostic prompt system
-      const { getMedicalSystemPrompt } = require('@/prompts/medical-system-prompt');
+      const { getMedicalSystemPrompt } = require('../../prompts/medical-system-prompt');
       return getMedicalSystemPrompt();
     }
     
-    // For other configs, check if systemPromptFile is specified
-    if (this.config.ai.prompts.systemPromptFile) {
-      try {
-        // Try to load the prompt file dynamically
-        const promptModule = require(`@/${this.config.ai.prompts.systemPromptFile.replace('.ts', '')}`);
-        if (promptModule.getSystemPrompt) {
-          return promptModule.getSystemPrompt();
-        }
-        // Handle configs with different function names
-        const funcName = `get${this.config.id.charAt(0).toUpperCase()}${this.config.id.slice(1)}SystemPrompt`;
-        if (promptModule[funcName]) {
-          return promptModule[funcName]();
-        }
-      } catch (error) {
-        console.error(`Failed to load system prompt from ${this.config.ai.prompts.systemPromptFile}:`, error);
-      }
-    }
+    // For other configs, return fallback for now
+    // Dynamic require doesn't work well with Next.js build process
     
     // Fall back to inline prompt
     return this.replaceVariables(this.config.ai.prompts.fallbackPrompt);
@@ -62,32 +47,18 @@ export class PromptLoader {
     
     if (this.config.id === 'verbier') {
       // Use existing Verbier personalization for backward compatibility
-      const { getPersonalizationFramework } = require('@/prompts/verbier-system-prompt');
+      const { getPersonalizationFramework } = require('../../prompts/verbier-system-prompt');
       return getPersonalizationFramework();
     }
     
     if (this.config.id === 'medical') {
       // Use medical diagnostic framework
-      const { getMedicalDiagnosticFramework } = require('@/prompts/medical-system-prompt');
+      const { getMedicalDiagnosticFramework } = require('../../prompts/medical-system-prompt');
       return getMedicalDiagnosticFramework();
     }
     
-    // For other configs with personalization enabled, try to load from file
-    if (this.config.ai.prompts.systemPromptFile) {
-      try {
-        const promptModule = require(`@/${this.config.ai.prompts.systemPromptFile.replace('.ts', '')}`);
-        if (promptModule.getPersonalizationFramework) {
-          return promptModule.getPersonalizationFramework();
-        }
-        // Handle configs with different function names
-        const funcName = `get${this.config.id.charAt(0).toUpperCase()}${this.config.id.slice(1)}DiagnosticFramework`;
-        if (promptModule[funcName]) {
-          return promptModule[funcName]();
-        }
-      } catch (error) {
-        console.error(`Failed to load personalization framework:`, error);
-      }
-    }
+    // For other configs, return null
+    // Dynamic require doesn't work well with Next.js build process
     
     return null;
   }
@@ -102,13 +73,13 @@ export class PromptLoader {
     
     if (this.config.id === 'verbier') {
       // Use existing Verbier content loader for backward compatibility
-      const { getVerbierContentOnly } = require('@/prompts/verbier-system-prompt');
+      const { getVerbierContentOnly } = require('../../prompts/verbier-system-prompt');
       return getVerbierContentOnly();
     }
     
     if (this.config.id === 'medical') {
       // Use medical content loader
-      const { getMedicalContentOnly } = require('@/prompts/medical-system-prompt');
+      const { getMedicalContentOnly } = require('../../prompts/medical-system-prompt');
       return getMedicalContentOnly();
     }
     

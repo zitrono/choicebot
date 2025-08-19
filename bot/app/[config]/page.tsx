@@ -1,12 +1,18 @@
 import { UIMessage } from "ai";
+import { notFound } from "next/navigation";
 
 import { Chat } from "@/components/custom/chat";
 import { generateUUID } from "@/lib/utils";
 import { getConfig } from "@/lib/config/get-config";
 
-export default async function Page() {
+export default async function Page({ params }: { params: { config: string } }) {
   const id = generateUUID();
-  const config = getConfig();
+  const config = getConfig(params.config);
+  
+  // If config doesn't exist, show 404
+  if (!config) {
+    notFound();
+  }
   
   // Build welcome message from config
   let welcomeText = config.ui.welcomeMessage.title + '\n\n';
@@ -33,5 +39,5 @@ export default async function Page() {
     }]
   };
   
-  return <Chat key={id} id={id} initialMessages={[welcomeMessage]} />;
+  return <Chat key={id} id={id} initialMessages={[welcomeMessage]} configId={params.config} />;
 }
