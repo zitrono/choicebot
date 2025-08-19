@@ -1,0 +1,287 @@
+# Medical Knowledge Base
+
+## Structured Symptom Assessment Database
+
+### PRIMARY SYMPTOM CATEGORIES
+
+#### 1. HEAD & NEUROLOGICAL SYMPTOMS
+**Common Presentations:**
+- Headache (tension, migraine, cluster, sinus)
+- Dizziness/vertigo
+- Vision changes (blurry, double vision, loss)
+- Confusion/memory problems
+- Numbness/tingling
+
+**Diagnostic Priorities:**
+- Onset: Sudden (emergency) vs gradual
+- Associated: Fever, neck stiffness, neurological deficits
+- Pattern: Constant vs intermittent, triggers
+
+**Red Flags - IMMEDIATE EMERGENCY:**
+- Thunderclap headache (worst headache of life)
+- Headache with fever + stiff neck + confusion (meningitis)
+- Sudden vision loss or double vision
+- Facial drooping, slurred speech (stroke)
+- Seizures
+
+**Common Conditions by Likelihood:**
+1. Tension headache (60%): Bilateral, pressing, stress-related
+2. Migraine (25%): Unilateral, throbbing, nausea, light sensitivity
+3. Sinus headache (10%): Facial pressure, nasal congestion
+4. Cluster headache (2%): Severe unilateral, eye tearing
+5. Serious causes (<3%): Meningitis, stroke, tumor
+
+#### 2. CHEST & CARDIAC SYMPTOMS
+**Common Presentations:**
+- Chest pain/pressure/tightness
+- Palpitations (heart racing/skipping)
+- Shortness of breath
+- Lightheadedness with exertion
+
+**Diagnostic Priorities:**
+- Quality: Crushing/pressure vs sharp/stabbing
+- Radiation: To arm, jaw, back
+- Associated: Sweating, nausea, shortness of breath
+- Triggers: Exertion, eating, breathing, position
+
+**Red Flags - IMMEDIATE EMERGENCY:**
+- Crushing chest pressure with sweating/nausea
+- Pain radiating to left arm or jaw
+- Severe shortness of breath
+- Lightheadedness with chest pain
+- Rapid irregular heartbeat with dizziness
+
+**Common Conditions by Likelihood (Age <50):**
+1. Musculoskeletal (40%): Sharp, worse with movement/breathing
+2. GERD/Heartburn (30%): Burning, after eating, relieved by antacids
+3. Anxiety/Panic (20%): With hyperventilation, fear, sweating
+4. Costochondritis (5%): Tender chest wall
+5. Cardiac (<5% if young, >20% if >50 with risk factors)
+
+#### 3. RESPIRATORY SYMPTOMS
+**Common Presentations:**
+- Cough (dry vs productive)
+- Shortness of breath
+- Wheezing
+- Chest tightness
+- Sputum production
+
+**Diagnostic Priorities:**
+- Duration: Acute (<3 weeks) vs chronic
+- Sputum: Clear, yellow, green, bloody
+- Triggers: Exercise, allergens, position
+- Associated: Fever, chest pain, leg swelling
+
+**Red Flags - IMMEDIATE EMERGENCY:**
+- Severe difficulty breathing
+- Blue lips or fingernails (cyanosis)
+- Coughing up blood
+- Chest pain with breathing
+- Stridor (high-pitched breathing sound)
+
+**Common Conditions by Likelihood:**
+1. Viral URI/Common cold (40%): Mild symptoms, self-limited
+2. Bronchitis (25%): Productive cough, chest discomfort
+3. Asthma (15%): Wheezing, triggers, responds to bronchodilators
+4. Pneumonia (10%): Fever, productive cough, pleuritic pain
+5. Allergic rhinitis (10%): Seasonal, clear discharge, sneezing
+
+#### 4. ABDOMINAL/DIGESTIVE SYMPTOMS
+**Common Presentations:**
+- Abdominal pain (location matters)
+- Nausea/vomiting
+- Diarrhea/constipation
+- Bloating/gas
+- Heartburn/reflux
+
+**Diagnostic Priorities:**
+- Location: RUQ, epigastric, periumbilical, RLQ, LLQ
+- Character: Crampy, sharp, burning, constant
+- Timing: Relation to meals, bowel movements
+- Associated: Fever, blood in stool/vomit, jaundice
+
+**Red Flags - IMMEDIATE EMERGENCY:**
+- Severe constant pain with rigid abdomen
+- Blood in vomit or black tarry stools
+- Severe dehydration (dizziness, no urination)
+- Yellowing of skin/eyes with pain
+- High fever with abdominal pain
+
+**Common Conditions by Location:**
+- RUQ: Gallbladder (90%), liver
+- Epigastric: GERD (50%), gastritis (30%), ulcer (20%)
+- Periumbilical: Early appendicitis, gastroenteritis
+- RLQ: Appendicitis (if migrated), ovarian (females)
+- LLQ: Diverticulitis, constipation, ovarian
+
+#### 5. MUSCULOSKELETAL SYMPTOMS
+**Common Presentations:**
+- Back pain (lower > upper)
+- Joint pain/swelling
+- Muscle aches
+- Neck pain
+- Limited range of motion
+
+**Diagnostic Priorities:**
+- Trauma history: Injury vs spontaneous
+- Pattern: Single joint vs multiple
+- Timing: Morning stiffness, worse with use
+- Systemic: Fever, rash, weight loss
+
+**Red Flags - URGENT EVALUATION:**
+- Back pain with numbness/weakness in legs
+- Loss of bowel/bladder control
+- Severe pain after trauma
+- Joint that's hot, red, swollen (septic arthritis)
+- Progressive weakness
+
+**Common Conditions by Presentation:**
+1. Mechanical back pain (80%): Improves with rest
+2. Muscle strain (60%): History of overuse/injury
+3. Osteoarthritis (30% >50yo): Worse with use, better with rest
+4. Disc herniation (5%): Radiating pain, numbness
+5. Inflammatory arthritis (5%): Morning stiffness >1hr
+
+#### 6. SYSTEMIC/CONSTITUTIONAL SYMPTOMS
+**Common Presentations:**
+- Fever/chills
+- Fatigue/weakness
+- Weight loss
+- Night sweats
+- Swollen lymph nodes
+
+**Diagnostic Priorities:**
+- Duration: Days vs weeks vs months
+- Pattern: Continuous vs intermittent
+- Associated: Localizing symptoms
+- Exposures: Travel, sick contacts, medications
+
+**Red Flags - NEEDS EVALUATION:**
+- Fever >103°F or lasting >5 days
+- Unintentional weight loss >10% body weight
+- Drenching night sweats
+- Progressive fatigue with other symptoms
+- Multiple swollen lymph nodes
+
+**Common Conditions:**
+1. Viral infections (60%): Self-limited, mild symptoms
+2. Bacterial infections (20%): May need antibiotics
+3. Medication side effects (10%)
+4. Thyroid disorders (5%): Check if persistent
+5. Serious conditions (5%): Cancer, autoimmune, chronic infections
+
+## DIAGNOSTIC DECISION TREES
+
+### Headache Assessment Flow
+1. Onset? → Sudden/thunderclap → EMERGENCY
+2. Fever + neck stiffness? → Yes → EMERGENCY
+3. Neurological symptoms? → Yes → URGENT
+4. Pattern? → Unilateral throbbing → Likely migraine
+5. Triggers? → Stress/tension → Likely tension headache
+
+### Chest Pain Assessment Flow
+1. Crushing/pressure? → Yes → EMERGENCY
+2. Radiating to arm/jaw? → Yes → EMERGENCY
+3. Worse with breathing? → Yes → Likely musculoskeletal/pleuritic
+4. Burning, after meals? → Yes → Likely GERD
+5. With anxiety symptoms? → Yes → Consider panic disorder
+
+### Abdominal Pain Assessment Flow
+1. Severe + rigid abdomen? → Yes → EMERGENCY
+2. RLQ pain + fever? → Yes → Possible appendicitis → URGENT
+3. Relation to meals? → Worse after → Upper GI issue
+4. Blood in stool/vomit? → Yes → URGENT evaluation
+5. Intermittent cramping? → Yes → Likely functional/IBS
+
+## TRIAGE GUIDELINES
+
+### EMERGENCY (Call 911/ER Now):
+- Chest pressure with sweating/nausea
+- Severe difficulty breathing
+- Sudden severe headache
+- Signs of stroke (FAST: Face, Arms, Speech, Time)
+- Severe abdominal pain with rigidity
+- Heavy bleeding
+- Loss of consciousness
+- Severe allergic reaction
+
+### URGENT (Same Day Care):
+- Moderate breathing difficulty
+- Chest pain with deep breathing
+- Severe headache with fever
+- Persistent vomiting/dehydration
+- Suspected fracture
+- Severe pain (8-10/10)
+- Fever >103°F
+
+### PROMPT (Within 2-3 Days):
+- Symptoms >5 days not improving
+- Moderate pain (5-7/10)
+- Persistent cough with fever
+- UTI symptoms
+- Moderate headaches
+- New concerning symptoms
+
+### ROUTINE (Schedule Appointment):
+- Chronic condition follow-up
+- Mild symptoms >1 week
+- Preventive care
+- Medication refills
+- Health maintenance
+
+### SELF-CARE APPROPRIATE:
+- Mild cold symptoms <5 days
+- Minor cuts/bruises
+- Mild headaches responding to OTC
+- Minor muscle soreness
+- Mild digestive upset
+
+## MEDICATION QUICK REFERENCE
+
+### Over-the-Counter Pain/Fever:
+- **Acetaminophen**: 650-1000mg q6h (max 3g/day, 2g if liver disease)
+- **Ibuprofen**: 400-800mg q6-8h with food (max 2400mg/day)
+- **Aspirin**: 325-650mg q4h (not for children, bleeding risk)
+
+### Common Drug Interactions:
+- NSAIDs + blood thinners = bleeding risk
+- Multiple acetaminophen products = liver toxicity
+- NSAIDs + BP meds = reduced effectiveness
+
+### When Antibiotics ARE Needed:
+- Strep throat (confirmed)
+- UTI with symptoms
+- Bacterial pneumonia
+- Skin infections (cellulitis)
+- Dental abscess
+
+### When Antibiotics are NOT Needed:
+- Common cold
+- Viral bronchitis
+- Most sore throats
+- Viral gastroenteritis
+- Most sinus congestion
+
+## PATIENT EDUCATION POINTS
+
+### Understanding Fever:
+- Body's natural defense mechanism
+- Treat for comfort, not number
+- Danger zone: >104°F adults, >102°F infants <3mo
+- Hydration more important than temperature reduction
+
+### Pain Scale Education:
+- 0-3: Mild (annoying but functional)
+- 4-6: Moderate (interferes with activities)
+- 7-9: Severe (unable to do normal activities)
+- 10: Worst imaginable pain
+
+### When Symptoms Change:
+Always re-evaluate if:
+- Sudden worsening
+- New symptoms develop
+- Not improving as expected
+- Red flag symptoms appear
+
+## DISCLAIMER
+This information is for educational purposes only and does not constitute medical advice. Always consult with a qualified healthcare provider for medical concerns. In emergencies, call 911 immediately.

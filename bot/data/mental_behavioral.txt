@@ -1,1 +1,104 @@
 Loaded cached credentials.
+MENTAL_HEALTH_SYSTEM:
+
+SCREENING_TOOLS:
+  - CONDITION: Depression
+    SCREENING_QUESTIONS: PHQ-9
+    1. Little interest or pleasure in doing things (0-3)
+    2. Feeling down, depressed, or hopeless (0-3)
+    3. Trouble sleeping or sleeping too much (0-3)
+    4. Feeling tired or having little energy (0-3)
+    5. Poor appetite or overeating (0-3)
+    6. Feeling bad about yourself (0-3)
+    7. Trouble concentrating (0-3)
+    8. Moving slowly or restlessness (0-3)
+    9. Thoughts of self-harm (0-3)
+    SCORING: 0-4: None, 5-9: Mild, 10-14: Moderate, 15-19: Moderately severe, 20-27: Severe
+    INTERVENTION_BY_SEVERITY:
+      - Mild: Self-help resources, lifestyle changes, psychoeducation.
+      - Moderate: Therapy (CBT, etc.), consider medication.
+      - Moderately Severe: Therapy and medication strongly recommended.
+      - Severe: Urgent psychiatric evaluation, intensive outpatient/inpatient care.
+
+  - CONDITION: Anxiety
+    SCREENING_QUESTIONS: GAD-7
+    1. Feeling nervous, anxious, or on edge (0-3)
+    2. Not being able to stop or control worrying (0-3)
+    3. Worrying too much about different things (0-3)
+    4. Trouble relaxing (0-3)
+    5. Being so restless that it is hard to sit still (0-3)
+    6. Becoming easily annoyed or irritable (0-3)
+    7. Feeling afraid as if something awful might happen (0-3)
+    SCORING: 0-4: Minimal, 5-9: Mild, 10-14: Moderate, 15-21: Severe
+    INTERVENTION_BY_SEVERITY:
+      - Mild: Stress management techniques, mindfulness.
+      - Moderate: Therapy (CBT), relaxation techniques.
+      - Severe: Therapy and possible medication, psychiatric consult.
+
+  - CONDITION: Alcohol Use Disorder
+    SCREENING_QUESTIONS: AUDIT-C
+    1. How often do you have a drink containing alcohol? (0-4)
+    2. How many standard drinks containing alcohol do you have on a typical day when you are drinking? (0-4)
+    3. How often do you have six or more standard drinks on one occasion? (0-4)
+    SCORING: Men: 4+ indicates at-risk drinking. Women: 3+ indicates at-risk drinking.
+    INTERVENTION_BY_SEVERITY:
+      - At-Risk: Brief intervention, education on low-risk drinking limits.
+      - Moderate/Severe (requires further assessment): Motivational interviewing, support groups (AA), therapy, potential for medically supervised detox.
+
+BEHAVIORAL_CHANGE_PROTOCOLS:
+  - GOAL: Stress Management
+    READINESS_ASSESSMENT: Precontemplation, Contemplation, Preparation, Action, Maintenance
+    BARRIER_IDENTIFICATION: Work pressure, family demands, lack of coping skills, financial stress.
+    PERSONALIZED_STRATEGIES: Mindfulness/meditation practice, deep breathing exercises, time management techniques (e.g., Eisenhower Matrix), regular physical activity, setting boundaries.
+    HABIT_FORMATION: Schedule "worry time", practice 5-minute meditations daily, use a journal to identify stressors.
+
+  - GOAL: Smoking Cessation
+    READINESS_ASSESSMENT: Precontemplation, Contemplation, Preparation, Action, Maintenance
+    BARRIER_IDENTIFICATION: Nicotine dependence, social triggers, stress, habit/ritual.
+    PERSONALIZED_STRATEGIES: Nicotine Replacement Therapy (NRT), identify and avoid triggers, develop coping strategies for cravings (e.g., walk, drink water), seek social support.
+    HABIT_FORMATION: Set a quit date, dispose of all tobacco products, celebrate milestones (1 day, 1 week, etc.).
+
+  - GOAL: Improving Sleep Hygiene
+    READINESS_ASSESSMENT: Precontemplation, Contemplation, Preparation, Action, Maintenance
+    BARRIER_IDENTIFICATION: Irregular schedule, screen time before bed, caffeine/alcohol intake, stressful environment.
+    PERSONALIZED_STRATEGIES: Consistent sleep/wake times, create a relaxing bedtime routine (e.g., reading, bath), optimize bedroom environment (dark, quiet, cool), avoid stimulants before bed.
+    HABIT_FORMATION: No screens 1 hour before bed, use bed only for sleep and intimacy, get 15 mins of morning sunlight.
+
+CRISIS_INTERVENTION_PROTOCOLS:
+  - SITUATION: Suicidal Ideation
+    IMMEDIATE_ASSESSMENT:
+      - Ideation: Are you having thoughts of killing yourself?
+      - Plan: Do you have a plan?
+      - Intent: Do you intend to act on your plan?
+      - Means: Do you have access to what you need to carry out your plan?
+    RESPONSE_LEVELS:
+      - Low Risk (fleeting thoughts, no plan/intent): Develop a safety plan, provide crisis hotline numbers, schedule follow-up.
+      - Medium Risk (ideation, vague plan, no intent): Collaborative safety planning, remove lethal means, involve family/support system, urgent counseling appointment.
+      - High Risk (specific plan, clear intent): Do not leave the person alone, call emergency services (911) or transport to the nearest emergency room, professional intervention required.
+    CRISIS_RESOURCES: National Suicide Prevention Lifeline (988), Crisis Text Line.
+
+  - SITUATION: Panic Attack
+    IMMEDIATE_ACTIONS:
+      - Reassurance: Speak in a calm, reassuring voice. "You are safe. This is a panic attack and it will pass."
+      - Grounding: Engage the senses. "Name 5 things you can see, 4 things you can feel, 3 things you can hear..."
+      - Breathing: Guide slow, deep breaths. "Breathe in for 4 seconds, hold for 4, breathe out for 6."
+    POST-ATTACK_PLAN:
+      - Identify triggers.
+      - Teach coping skills for anxiety.
+      - Recommend therapy (CBT is highly effective).
+
+THERAPEUTIC_MODALITIES:
+  - MODALITY: Cognitive Behavioral Therapy (CBT)
+    CORE_PRINCIPLE: Thoughts, feelings, and behaviors are interconnected. Identifying and changing unhelpful thought patterns and behaviors can improve emotional well-being.
+    KEY_TECHNIQUES: Cognitive restructuring, behavioral experiments, journaling, activity scheduling.
+    BEST_FOR: Depression, Anxiety Disorders, PTSD, Eating Disorders.
+
+  - MODALITY: Dialectical Behavior Therapy (DBT)
+    CORE_PRINCIPLE: Integrates CBT with mindfulness concepts, focusing on emotional regulation, distress tolerance, and interpersonal effectiveness.
+    KEY_TECHNIQUES: Mindfulness, distress tolerance skills (e.g., TIPP), emotion regulation skills, interpersonal effectiveness skills.
+    BEST_FOR: Borderline Personality Disorder, Chronic Suicidality, Self-harm, Complex PTSD.
+
+  - MODALITY: Motivational Interviewing (MI)
+    CORE_PRINCIPLE: A collaborative, goal-oriented style of communication to strengthen a person's own motivation and commitment to change.
+    KEY_TECHNIQUES: Open-ended questions, affirmations, reflective listening, summarizing (OARS).
+    BEST_FOR: Substance Use Disorders, Health behavior change (diet, exercise).
