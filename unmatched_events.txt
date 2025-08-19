@@ -1,0 +1,269 @@
+UNMATCHED EVENTS TO SEARCH ON VERBIER FESTIVAL WEBSITE:
+============================================================
+
+Event 1:
+  Date: 27.07
+  Time: 11:00-12:30
+  Line in file: 2231
+  Content preview:
+    11:00-12:30
+    Randall Goosby violon
+    Julien Quentin piano
+    JOSEPH BOLOGNE DE SAINT-GEORGE (1745-1799)
+    Sonate pour violon et piano N° 3 en sol mineur
+    op. 1a
+    GABRIEL FAURE (1845-1924)
+
+----------------------------------------
+
+Event 2:
+  Date: 27.07
+  Time: 18:30-20:30
+  Line in file: 2321
+  Venue: EGLISE
+  Content preview:
+    18:30- 20:30
+    VERBIER FESTIVAL
+    CHAMBER ORCHESTRA
+    Fabio Luisi direction
+    Sonya Yoncheva soprano
+    Alice Coote mezzo-soprano
+
+----------------------------------------
+
+Event 3:
+  Date: 28.07
+  Time: 19:30-21:15
+  Line in file: 2399
+  Content preview:
+    19:30-21:15
+    RENCONTRES INEDITES VII
+    Marc Bouchkov violon
+    Boris Brovtsyn violon
+    Timothy Ridout alto
+    Frans Helmerson violoncelle
+    Zofia Neugebauer flite
+    Martin Frost clarinette
+
+----------------------------------------
+
+Event 4:
+  Date: 30.07
+  Time: 18:30-20:30
+  Line in file: 2693
+  Venue: EGLISE
+  Content preview:
+    18:30-20:30
+    VERBIER FESTIVAL ORCHESTRA
+    Teodor Currentzis direction
+    Alexandre Kantorow piano
+    SERGEI RACHMANINOFF (1873-1943)
+    Rhapsodie sur un theme de Paganini
+    en la mineur op. 43
+
+----------------------------------------
+
+Event 5:
+  Date: 31.07
+  Time: 11:00-12:30
+  Line in file: 2726
+  Content preview:
+    11:00 -12:30
+    Quatuor Ebene
+    Pierre Génisson clarinette
+    WOLFGANG AMADEUS MOZART (1756-1791)
+    Quintette avec clarinette en la majeur K. 581
+    Entracte
+    PIOTR ILYITCH TCHAIKOVSKI (1840-1893)
+
+----------------------------------------
+
+Event 6:
+  Date: 31.07
+  Time: 15:30-16:30
+  Line in file: 2743
+  Content preview:
+    15:30-16:30
+    ACADEMY PRESENTS IV
+    Nurie Chung violon
+    Rang Tae alto
+    Jinseok Jeong violoncelle
+    Magdalene Ho piano
+    WOLFGANG AMADEUS MOZART (1756-1791)
+
+----------------------------------------
+
+Event 7:
+  Date: 31.07
+  Time: 19:30-21:00
+  Line in file: 2763
+  Content preview:
+    19:30-21:00
+    RENCONTRES INEDITES VIII
+    Randall Goosby violon
+    Paloma So violon
+    Maté Szucs alto
+    Anastasia Kobekina violoncelle
+    Edgar Moreau violoncelle
+
+----------------------------------------
+
+Event 8:
+  Date: 31.07
+  Time: 18:30-20:00
+  Line in file: 2794
+  Venue: EGLISE
+  Content preview:
+    18:30-20:00
+    JAZZ
+    BRAD MEHLDAU TRIO
+    Brad Mehldau piano
+    Felix Moseholm contrebasse
+    Jorge Rossy batterie
+    Brad Mehldau est Il’un des esprits musicaux les plus
+
+----------------------------------------
+
+Event 9:
+  Date: 31.07
+  Time: 11:00-12:30
+  Line in file: 2834
+  Content preview:
+    11:00- 12:30
+    ACADEMY PRESENTS V
+    Sophia Werner violon
+    Vincenzo Calcagno alto
+    Seungyeon Baik violoncelle
+    Natalie Schwamova piano
+    FELIX MENDELSSOHN (1809-1847)
+    Quatuor pour piano et cordes N° 2 en fa mineur op. 2
+
+----------------------------------------
+
+Event 10:
+  Date: 31.07
+  Time: 19:30-21:15
+  Line in file: 2878
+  Content preview:
+    19:30-21:15
+    Daniel Lozakovich violon
+    Edgar Moreau violoncelle
+    Behzod Abduraimov piano
+    ANTONIN DVORAK (1841-1904)
+    Trio pour piano et cordes N° 4 en mi mineur op. 90
+    « Dumky »
+
+----------------------------------------
+
+Event 11:
+  Date: 31.07
+  Time: 18:30-20:15
+  Line in file: 2896
+  Venue: SALLE DES COMBINS
+  Content preview:
+    18:30 -20:15
+    VERBIER FESTIVAL
+    CHAMBER ORCHESTRA
+    Teodor Currentzis direction
+    Marc Bouchkov violon
+    JOHANNES BRAHMS (1833-1897)
+    Concerto pour violon et orchestre en ré majeur op. 77
+
+----------------------------------------
+
+Event 12:
+  Date: 03.07
+  Time: 14:00-16:30
+  Line in file: 2962
+  Venue: SALLE DES COMBINS
+  Content preview:
+    14:00-16:30
+    VERBIER FESTIVAL JUNIOR
+    ORCHESTRA
+    Stanislav Kochanovsky direction
+    Anton Beliaev Eugéne Onéguine
+    Mira Alkhovik Tatyana
+
+----------------------------------------
+
+Event 13:
+  Date: 03.07
+  Time: 18:30-20:45
+  Line in file: 3002
+  Content preview:
+    18:30-20:45
+    VERBIER FESTIVAL ORCHESTRA
+    Paavo Jarvi direction
+    Khatia Buniatishvill piano
+    PIOTR ILYITCH TCHAIKOVSKI (1840-1893)
+    Concerto pour piano N° 1 en si bémol mineur op. 23
+    Entracte
+
+----------------------------------------
+
+Event 14:
+  Date: 03.07
+  Time: 09:30-12:30
+  Line in file: 3566
+  Content preview:
+    09:30-12:30 Masterclass violoncelle W. E. Schmidt Téléverbier
+
+----------------------------------------
+
+Event 15:
+  Date: 03.07
+  Time: 10:00-12:30
+  Line in file: 3567
+  Content preview:
+    10:00-12:30 Masterclass chant J. Garnon Cinéma
+    - texte & interprétation
+
+----------------------------------------
+
+Event 16:
+  Date: 03.07
+  Time: 14:30-16:30
+  Line in file: 3570
+  Content preview:
+    14:30-16:30 Masterclass musique de chambre |. Charisius Hétel Montpelier
+
+----------------------------------------
+
+Event 17:
+  Date: 03.07
+  Time: 18:00-19:00
+  Line in file: 3571
+  Content preview:
+    18:00-19:00 Concert Creative Project Development Musicien-ne-s de l'Academy Chapelle de La Tzoumaz
+    SA SAT 19.07 09:30-12:30 Masterclass piano M. Sohn Hameau
+
+----------------------------------------
+
+Event 18:
+  Date: 03.07
+  Time: 09:30-12:30
+  Line in file: 3574
+  Content preview:
+    09:30-12:30 Masterclass alto N. Imai Hotel Montpelier
+
+----------------------------------------
+
+Event 19:
+  Date: 03.07
+  Time: 09:30-12:30
+  Line in file: 3575
+  Content preview:
+    09:30-12:30 Masterclass violoncelle W. E. Schmidt Téléverbier
+
+----------------------------------------
+
+Event 20:
+  Date: 03.07
+  Time: 10:00-12:30
+  Line in file: 3576
+  Content preview:
+    10:00- 12:30 Masterclass chant J. Garnon Cinéma
+    - texte & interprétation
+
+----------------------------------------
+

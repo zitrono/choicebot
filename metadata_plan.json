@@ -1,0 +1,482 @@
+{
+  "with_urls": [
+    {
+      "event_id": "vf25-07-16-1900",
+      "date": "16.07",
+      "time": "19:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-16-1900/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-16-1900/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-17-1100-150e-anniversaire-de-ravel-partie-1",
+      "date": "17.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-17-1100-150e-anniversaire-de-ravel-partie-1/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-17-1100-150e-anniversaire-de-ravel-partie-1/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-17-1530",
+      "date": "17.07",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-17-1530/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-17-1530/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-17-1830",
+      "date": "17.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-17-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-17-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-18-1100",
+      "date": "18.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-18-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-18-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-18-laure-chan-la-tzoumaz",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-18-laure-chan-la-tzoumaz/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-18-laure-chan-la-tzoumaz/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-18-1830",
+      "date": "18.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-18-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-18-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-18-1930",
+      "date": "18.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-18-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-18-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-18-francesco-tristano",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-18-francesco-tristano/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-18-francesco-tristano/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-19-1100",
+      "date": "19.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-19-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-19-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-19-1830",
+      "date": "19.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-19-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-19-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-19-1930",
+      "date": "19.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-19-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-19-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-19-youn-sun-nah-oxy-more",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-19-youn-sun-nah-oxy-more/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-19-youn-sun-nah-oxy-more/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-20-1100",
+      "date": "20.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-20-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-20-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-20-1500",
+      "date": "20.07",
+      "time": "15:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-20-1500/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-20-1500/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "kids25-07-20-contes-musicaux-du-roi",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/kids25-07-20-contes-musicaux-du-roi/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/kids25-07-20-contes-musicaux-du-roi/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-20-1930",
+      "date": "20.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-20-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-20-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-21-1830",
+      "date": "21.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-21-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-21-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-21-1100",
+      "date": "21.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-21-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-21-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-21-1530",
+      "date": "21.07",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-21-1530/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-21-1530/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-21-1930",
+      "date": "21.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-21-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-21-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-22-1830",
+      "date": "22.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-22-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-22-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-22-1100",
+      "date": "22.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-22-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-22-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-22-1530",
+      "date": "22.07",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-22-1530/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-22-1530/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-22-1930",
+      "date": "22.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-22-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-22-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-23-1100",
+      "date": "23.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-23-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-23-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-23-nicolas-namoradze-neurorecital",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-23-nicolas-namoradze-neurorecital/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-23-nicolas-namoradze-neurorecital/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-23-1830",
+      "date": "23.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-23-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-23-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-23-07-1930",
+      "date": "07.23",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-23-07-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-23-07-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-23-unravelled",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-23-unravelled/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-23-unravelled/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-24-1100",
+      "date": "24.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-24-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-24-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-24-1530-academy-presents-ii",
+      "date": "24.07",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-24-1530-academy-presents-ii/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-24-1530-academy-presents-ii/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-24-galilee-quartet-la-tzoumaz",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-24-galilee-quartet-la-tzoumaz/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-24-galilee-quartet-la-tzoumaz/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-24-1930-2",
+      "date": "24.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-24-1930-2/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-24-1930-2/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-24-1930",
+      "date": "24.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-24-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-24-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-25-1100",
+      "date": "25.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-25-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-25-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-25-1530",
+      "date": "25.07",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-25-1530/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-25-1530/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-25-1830",
+      "date": "25.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-25-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-25-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-25-07-1930",
+      "date": "07.25",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-25-07-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-25-07-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-25-the-amy-winehouse-band",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-25-the-amy-winehouse-band/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-25-the-amy-winehouse-band/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-26-1100",
+      "date": "26.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-26-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-26-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-26-1500",
+      "date": "26.07",
+      "time": "15:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-26-1500/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-26-1500/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "kids25-07-26-spectacle-storytellers",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/kids25-07-26-spectacle-storytellers/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/kids25-07-26-spectacle-storytellers/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-26-1830",
+      "date": "26.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-26-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-26-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-26-1930",
+      "date": "26.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-26-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-26-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-26-wooden-elephant",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-26-wooden-elephant/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-26-wooden-elephant/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-27-07-1100",
+      "date": "07.27",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-27-07-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-27-07-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-27-1830",
+      "date": "27.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-27-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-27-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-27-1930",
+      "date": "27.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-27-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-27-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-28-1100",
+      "date": "28.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-28-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-28-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf-25-07-28-1530",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf-25-07-28-1530/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf-25-07-28-1530/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-28-07-1930-2",
+      "date": "07.28",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-28-07-1930-2/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-28-07-1930-2/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-28-07-1930",
+      "date": "07.28",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-28-07-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-28-07-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-29",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-29/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-29/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-29-1830",
+      "date": "29.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-29-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-29-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-29-1930",
+      "date": "29.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-29-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-29-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "unltd25-07-29-sheku-kanneh-mason-harry-baker",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/unltd25-07-29-sheku-kanneh-mason-harry-baker/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/unltd25-07-29-sheku-kanneh-mason-harry-baker/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-30-1100",
+      "date": "30.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-30-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-30-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "kids25-07-30-little-sheku-and-the-animal-orchestra",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/kids25-07-30-little-sheku-and-the-animal-orchestra/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/kids25-07-30-little-sheku-and-the-animal-orchestra/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-30-1530-academy-presents-iii",
+      "date": "30.07",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-30-1530-academy-presents-iii/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-30-1530-academy-presents-iii/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-30-1830",
+      "date": "30.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-30-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-30-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-30-1930",
+      "date": "30.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-30-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-30-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-31-1100",
+      "date": "31.07",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-31-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-31-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-31-1830",
+      "date": "31.07",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-31-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-31-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-07-31-1930",
+      "date": "31.07",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-07-31-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-07-31-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-01-1100",
+      "date": "01.08",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-01-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-01-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-01-1530-academy-presents-iv",
+      "date": "01.08",
+      "time": "15:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-01-1530-academy-presents-iv/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-01-1530-academy-presents-iv/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "kids25-08-01-the-fisherman-and-the-fish",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/kids25-08-01-the-fisherman-and-the-fish/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/kids25-08-01-the-fisherman-and-the-fish/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-01-08-1830",
+      "date": "08.01",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-01-08-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-01-08-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-01-08-1930",
+      "date": "08.01",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-01-08-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-01-08-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-02-1100",
+      "date": "02.08",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-02-1100/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-02-1100/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf-talk-25-08-02-jacqueline-du-pre-genie-et-tragedie",
+      "date": "",
+      "time": "",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf-talk-25-08-02-jacqueline-du-pre-genie-et-tragedie/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf-talk-25-08-02-jacqueline-du-pre-genie-et-tragedie/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-02-1830",
+      "date": "02.08",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-02-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-02-1830/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-02-1930",
+      "date": "02.08",
+      "time": "19:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-02-1930/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-02-1930/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-03-1100-academy-presents-vi",
+      "date": "03.08",
+      "time": "11:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-03-1100-academy-presents-vi/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-03-1100-academy-presents-vi/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-03-08-1400",
+      "date": "08.03",
+      "time": "14:00",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-03-08-1400/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-03-08-1400/\n[/EVENT_METADATA]"
+    },
+    {
+      "event_id": "vf25-08-03-1830",
+      "date": "03.08",
+      "time": "18:30",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: https://www.verbierfestival.com/en/show/vf25-08-03-1830/\nBooking_URL: https://www.verbierfestival.comhttps://ticketing.verbierfestival.com/event/vf25-08-03-1830/\n[/EVENT_METADATA]"
+    }
+  ],
+  "without_urls": [
+    {
+      "date": "12.07",
+      "time": "N/A",
+      "context": "Concert inaugural le 12 juillet dirigé par | Zubin Mehta avec le violoniste | David Garrett, alors 4gé de 13 ans | Création de |’'UBS Verbier Festival | Youth Orchestra",
+      "metadata_block": "[EVENT_METADATA]\nEvent_URL: URL_NOT_AVAILABLE\nBooking_URL: URL_NOT_AVAILABLE\nEvent_Date: 12.07\nEvent_Time: N/A\nNote: This event does not have an associated web page\n[/EVENT_METADATA]"
+    }
+  ],
+  "total_blocks": 78,
+  "instructions": {
+    "step1": "Review existing EVENT_METADATA blocks in verbier.txt",
+    "step2": "For events with URLs, insert the corresponding metadata block",
+    "step3": "For events without URLs, insert URL_NOT_AVAILABLE blocks",
+    "step4": "Ensure no duplicate metadata blocks",
+    "step5": "Validate all events have metadata (either with URL or without)"
+  }
+}

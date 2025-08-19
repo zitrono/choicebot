@@ -1,0 +1,609 @@
+{
+  "matched": [
+    {
+      "text_event": {
+        "page": 10,
+        "line_num": 2,
+        "raw_line": "Je. 17.07",
+        "date": "17.07",
+        "venue": "EGLISE",
+        "has_existing_metadata": true,
+        "existing_url": "https://www.verbierfestival.com/en/show/vf25-07-17-1830/",
+        "existing_event_id": "",
+        "context": "Je. 17.07 | EGLISE | Event_URL: https://www.verbierfestival.com/en/show/vf25-07-17-1830/ | Booking_URL: https://ticketing.verbierfestival.com/selection/event/seat?perfId=10229297882189&productId=10229295078320 | 11:00-13:00"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-17-1100-150e-anniversaire-de-ravel-partie-1",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-17-1100-150e-anniversaire-de-ravel-partie-1/",
+        "date": "17.07",
+        "time": "11:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 12,
+        "line_num": 2,
+        "raw_line": "Ve. 18.07",
+        "date": "18.07",
+        "venue": "EGLISE",
+        "has_existing_metadata": true,
+        "existing_url": "https://www.verbierfestival.com/en/show/vf25-07-18-1830/",
+        "existing_event_id": "",
+        "context": "Ve. 18.07 | EGLISE | Event_URL: https://www.verbierfestival.com/en/show/vf25-07-18-1830/ | Booking_URL: https://ticketing.verbierfestival.com/selection/event/seat?perfId=10229297882192&productId=10229295078324 | 11:00- 12:30"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-18-1100",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-18-1100/",
+        "date": "18.07",
+        "time": "11:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 22,
+        "line_num": 2,
+        "raw_line": "Me. 23.07",
+        "date": "23.07",
+        "time": "11:00",
+        "venue": "EGLISE",
+        "has_existing_metadata": false,
+        "context": "Me. 23.07 | EGLISE | 11:00 -12:30 | RENCONTRES INEDITES II | Marc Bouchkov violon"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-23-1100",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-23-1100/",
+        "date": "23.07",
+        "time": "11:00"
+      },
+      "match_score": 0.9
+    },
+    {
+      "text_event": {
+        "page": 25,
+        "line_num": 41,
+        "raw_line": "Je. 24.07",
+        "date": "24.07",
+        "venue": "SALLE DES COMBINS",
+        "has_existing_metadata": false,
+        "context": "Je. 24.07 | SALLE DES COMBINS | Yulia Matochkina Santuzza | Freddie De Tommaso Turiddu | Ludovic Tézier Alfio"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-24-1100",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-24-1100/",
+        "date": "24.07",
+        "time": "11:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 29,
+        "line_num": 27,
+        "raw_line": "Sa. 26.07",
+        "date": "26.07",
+        "venue": "SALLE DES COMBINS",
+        "has_existing_metadata": true,
+        "existing_url": "https://www.verbierfestival.com/en/show/vf25-07-26-1500/",
+        "existing_event_id": "",
+        "context": "Sa. 26.07 | SALLE DES COMBINS | Event_URL: https://www.verbierfestival.com/en/show/vf25-07-26-1500/ | Booking_URL: https://ticketing.verbierfestival.com/selection/event/seat?perfId=10229412976905&productId=10229408512810 | 18:30 -20:45"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-26-1100",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-26-1100/",
+        "date": "26.07",
+        "time": "11:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 85,
+        "line_num": 73,
+        "raw_line": "Verbier Festival Orchestra, le 20 juillet 2025 a la Salle des Combins.",
+        "date": "20.07",
+        "venue": "SALLE DES COMBINS",
+        "has_existing_metadata": false,
+        "context": "Verbier Festival Orchestra, le 20 juillet 2025 a la Salle des Combins. | Leurs ceuvres, ainsi que bien d'autres, prennent vie dans un film animé | en direct projeté pendant le concert, et sont exposées au Pavillon | de la Salle des Combins pendant toute la durée du Festival. VF KiDS | invited children to illustrate the Russian fairytale behind Stravinsky's The"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-20-1100",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-20-1100/",
+        "date": "20.07",
+        "time": "11:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 85,
+        "line_num": 84,
+        "raw_line": "Orchestra on 20 July 2025. All artworks are displayed in the Pavillon at",
+        "date": "20.07",
+        "venue": "SALLE DES COMBINS",
+        "has_existing_metadata": false,
+        "context": "Orchestra on 20 July 2025. All artworks are displayed in the Pavillon at | Salle des Combins during the Festival. | En haut a droite : | Gagnante Catégorie 5 a7 ans | Lisa Sotnikova | 7 ans, Rieden AG, Suisse"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-20-1500",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-20-1500/",
+        "date": "20.07",
+        "time": "15:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 113,
+        "line_num": 38,
+        "raw_line": "Gala du 30° anniversaire le 24 juillet,",
+        "date": "24.07",
+        "has_existing_metadata": false,
+        "context": "Gala du 30° anniversaire le 24 juillet, | réunissant plus de 60 stars de la scene | musicale internationale | Le Verbier Festival 365 jours par an | a 360 degrés!"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-24-1530-academy-presents-ii",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-24-1530-academy-presents-ii/",
+        "date": "24.07",
+        "time": "15:30"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 123,
+        "line_num": 29,
+        "raw_line": "Diner, 31 juillet 2024 © Alpimages",
+        "date": "31.07",
+        "has_existing_metadata": false,
+        "context": "Diner, 31 juillet 2024 © Alpimages | The Friends | LES AMIS | DU VERBIER | FESTIVAL"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-31-1100",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-31-1100/",
+        "date": "31.07",
+        "time": "11:00"
+      },
+      "match_score": 0.5
+    },
+    {
+      "text_event": {
+        "page": 186,
+        "line_num": 4,
+        "raw_line": "33° edition du 17 juillet au 2 aout",
+        "date": "17.07",
+        "has_existing_metadata": false,
+        "context": "33° edition du 17 juillet au 2 aout | Avec... | Martha Argerich Alexandre Kantorow Mikhail Pletnev | Joshua Bell Leonidas Kavakos Simon Rattle | lvan Fischer Yunchan Lim Esa-Pekka Salonen"
+      },
+      "scraped_event": {
+        "event_id": "vf25-07-17-1530",
+        "url": "https://www.verbierfestival.com/en/show/vf25-07-17-1530/",
+        "date": "17.07",
+        "time": "15:30"
+      },
+      "match_score": 0.5
+    }
+  ],
+  "unmatched_text": [
+    {
+      "page": 113,
+      "line_num": 9,
+      "raw_line": "Concert inaugural le 12 juillet dirigé par",
+      "date": "12.07",
+      "has_existing_metadata": false,
+      "context": "Concert inaugural le 12 juillet dirigé par | Zubin Mehta avec le violoniste | David Garrett, alors 4gé de 13 ans | Création de |’'UBS Verbier Festival | Youth Orchestra"
+    }
+  ],
+  "unmatched_scraped": [
+    {
+      "event_id": "vf25-07-16-1900",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-16-1900/",
+      "date": "16.07",
+      "time": "19:00"
+    },
+    {
+      "event_id": "vf25-07-17-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-17-1830/",
+      "date": "17.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-18-laure-chan-la-tzoumaz",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-18-laure-chan-la-tzoumaz/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-18-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-18-1830/",
+      "date": "18.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-18-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-18-1930/",
+      "date": "18.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-18-francesco-tristano",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-18-francesco-tristano/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-19-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-19-1100/",
+      "date": "19.07",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-07-19-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-19-1830/",
+      "date": "19.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-19-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-19-1930/",
+      "date": "19.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-19-youn-sun-nah-oxy-more",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-19-youn-sun-nah-oxy-more/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "kids25-07-20-contes-musicaux-du-roi",
+      "url": "https://www.verbierfestival.com/en/show/kids25-07-20-contes-musicaux-du-roi/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-20-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-20-1930/",
+      "date": "20.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-21-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-21-1830/",
+      "date": "21.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-21-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-21-1100/",
+      "date": "21.07",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-07-21-1530",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-21-1530/",
+      "date": "21.07",
+      "time": "15:30"
+    },
+    {
+      "event_id": "vf25-07-21-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-21-1930/",
+      "date": "21.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-22-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-22-1830/",
+      "date": "22.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-22-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-22-1100/",
+      "date": "22.07",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-07-22-1530",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-22-1530/",
+      "date": "22.07",
+      "time": "15:30"
+    },
+    {
+      "event_id": "vf25-07-22-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-22-1930/",
+      "date": "22.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-23-nicolas-namoradze-neurorecital",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-23-nicolas-namoradze-neurorecital/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-23-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-23-1830/",
+      "date": "23.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-23-07-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-23-07-1930/",
+      "date": "07.23",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-23-unravelled",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-23-unravelled/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-24-galilee-quartet-la-tzoumaz",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-24-galilee-quartet-la-tzoumaz/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-24-1930-2",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-24-1930-2/",
+      "date": "24.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-24-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-24-1930/",
+      "date": "24.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-25-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-25-1100/",
+      "date": "25.07",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-07-25-1530",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-25-1530/",
+      "date": "25.07",
+      "time": "15:30"
+    },
+    {
+      "event_id": "vf25-07-25-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-25-1830/",
+      "date": "25.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-25-07-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-25-07-1930/",
+      "date": "07.25",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-25-the-amy-winehouse-band",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-25-the-amy-winehouse-band/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-26-1500",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-26-1500/",
+      "date": "26.07",
+      "time": "15:00"
+    },
+    {
+      "event_id": "kids25-07-26-spectacle-storytellers",
+      "url": "https://www.verbierfestival.com/en/show/kids25-07-26-spectacle-storytellers/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-26-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-26-1830/",
+      "date": "26.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-26-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-26-1930/",
+      "date": "26.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-26-wooden-elephant",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-26-wooden-elephant/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-27-07-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-27-07-1100/",
+      "date": "07.27",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-07-27-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-27-1830/",
+      "date": "27.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-27-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-27-1930/",
+      "date": "27.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-28-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-28-1100/",
+      "date": "28.07",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf-25-07-28-1530",
+      "url": "https://www.verbierfestival.com/en/show/vf-25-07-28-1530/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-28-07-1930-2",
+      "url": "https://www.verbierfestival.com/en/show/vf25-28-07-1930-2/",
+      "date": "07.28",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-28-07-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-28-07-1930/",
+      "date": "07.28",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-29",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-29/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-29-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-29-1830/",
+      "date": "29.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-29-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-29-1930/",
+      "date": "29.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "unltd25-07-29-sheku-kanneh-mason-harry-baker",
+      "url": "https://www.verbierfestival.com/en/show/unltd25-07-29-sheku-kanneh-mason-harry-baker/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-30-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-30-1100/",
+      "date": "30.07",
+      "time": "11:00"
+    },
+    {
+      "event_id": "kids25-07-30-little-sheku-and-the-animal-orchestra",
+      "url": "https://www.verbierfestival.com/en/show/kids25-07-30-little-sheku-and-the-animal-orchestra/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-07-30-1530-academy-presents-iii",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-30-1530-academy-presents-iii/",
+      "date": "30.07",
+      "time": "15:30"
+    },
+    {
+      "event_id": "vf25-07-30-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-30-1830/",
+      "date": "30.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-30-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-30-1930/",
+      "date": "30.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-07-31-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-31-1830/",
+      "date": "31.07",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-07-31-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-07-31-1930/",
+      "date": "31.07",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-08-01-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-01-1100/",
+      "date": "01.08",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-08-01-1530-academy-presents-iv",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-01-1530-academy-presents-iv/",
+      "date": "01.08",
+      "time": "15:30"
+    },
+    {
+      "event_id": "kids25-08-01-the-fisherman-and-the-fish",
+      "url": "https://www.verbierfestival.com/en/show/kids25-08-01-the-fisherman-and-the-fish/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-01-08-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-01-08-1830/",
+      "date": "08.01",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-01-08-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-01-08-1930/",
+      "date": "08.01",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-08-02-1100",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-02-1100/",
+      "date": "02.08",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf-talk-25-08-02-jacqueline-du-pre-genie-et-tragedie",
+      "url": "https://www.verbierfestival.com/en/show/vf-talk-25-08-02-jacqueline-du-pre-genie-et-tragedie/",
+      "date": "",
+      "time": ""
+    },
+    {
+      "event_id": "vf25-08-02-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-02-1830/",
+      "date": "02.08",
+      "time": "18:30"
+    },
+    {
+      "event_id": "vf25-08-02-1930",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-02-1930/",
+      "date": "02.08",
+      "time": "19:30"
+    },
+    {
+      "event_id": "vf25-08-03-1100-academy-presents-vi",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-03-1100-academy-presents-vi/",
+      "date": "03.08",
+      "time": "11:00"
+    },
+    {
+      "event_id": "vf25-03-08-1400",
+      "url": "https://www.verbierfestival.com/en/show/vf25-03-08-1400/",
+      "date": "08.03",
+      "time": "14:00"
+    },
+    {
+      "event_id": "vf25-08-03-1830",
+      "url": "https://www.verbierfestival.com/en/show/vf25-08-03-1830/",
+      "date": "03.08",
+      "time": "18:30"
+    }
+  ],
+  "statistics": {
+    "total_text_events": 11,
+    "total_scraped_urls": 77,
+    "matched_count": 10,
+    "unmatched_text_count": 1,
+    "unmatched_scraped_count": 67
+  }
+}
