@@ -7,7 +7,9 @@ import {
   getChatById,
   saveChat,
 } from "@/db/queries-stub";
-import { getFileManager } from "@/lib/google-file-upload";
+import { getConfig } from "@/lib/config/get-config";
+import { getFileManager } from "@/lib/config-file-upload";
+import { PromptLoader } from "@/lib/config/prompt-loader";
 import { parseRetryDelay, isQuotaError, sleepWithProgress, formatRemainingTime } from "@/lib/retry-utils";
 import { AssistantResponseSchema } from "@/lib/schemas";
 import { generateUUID } from "@/lib/utils";
@@ -71,34 +73,40 @@ export async function POST(request: Request) {
       };
     });
 
-  // Initialize file upload on first request
-  if (!fileInitialized) {
+  // Load configuration
+  const config = getConfig();
+  const promptLoader = new PromptLoader(config);
+  
+  // Initialize file upload on first request (if configured)
+  if (!fileInitialized && config.ai.context.uploadStrategy === 'google-files-api') {
     try {
-      const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
-      if (!apiKey) {
-        throw new Error('GOOGLE_GENERATIVE_AI_API_KEY not found');
-      }
-      
-      const fileManager = getFileManager(apiKey);
-      fileUri = await fileManager.getOrUploadVerbierContent();
+      const fileManager = getFileManager(config);
+      fileUri = await fileManager.getOrUploadContent();
       fileInitialized = true;
       
       if (!fileUri) {
         // File upload failed - falling back to inline content
+        console.log('File upload failed, using inline content');
       } else {
         // File ready - token usage reduced by 98%
+        console.log('Using uploaded file for content');
       }
     } catch (error) {
       // File upload error - continuing without file upload
+      console.error('File upload error:', error);
       // Continue without file upload
     }
   }
 
   // 1. Token size tracking
-  const systemPromptSize = fileUri ? getPersonalizationFramework().length : getSystemPrompt().length;
+  const personalizationFramework = promptLoader.getPersonalizationFramework();
+  const systemPrompt = promptLoader.getSystemPrompt();
+  const dataContent = promptLoader.getDataContent();
+  
+  const systemPromptSize = fileUri && personalizationFramework ? personalizationFramework.length : systemPrompt.length;
   const messagesSize = JSON.stringify(normalizedMessages).length;
-  const verbierSize = fileUri ? 0 : getVerbierContentOnly().length;
-  totalRequestSize = messagesSize + systemPromptSize + verbierSize;
+  const contentSize = fileUri ? 0 : (dataContent?.length || 0);
+  totalRequestSize = messagesSize + systemPromptSize + contentSize;
   // Request size tracking for monitoring
 
   // 5. File effectiveness

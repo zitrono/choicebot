@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { auth, signOut } from "@/app/auth-stub";
+import { getConfig } from "@/lib/config/get-config";
 
 import { History } from "./history";
 import { ThemeToggle } from "./theme-toggle";
@@ -14,6 +15,7 @@ import {
 
 export const Navbar = async () => {
   let session = await auth();
+  const config = getConfig();
 
   return (
     <>
@@ -21,7 +23,7 @@ export const Navbar = async () => {
         <div className="flex flex-row gap-3 items-center">
           <History user={session?.user} />
           <div className="text-sm dark:text-zinc-300 font-medium">
-            Verbier Festival Concierge
+            {config.branding.navbarTitle}
           </div>
         </div>
 

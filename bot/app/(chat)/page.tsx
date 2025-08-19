@@ -2,26 +2,34 @@ import { UIMessage } from "ai";
 
 import { Chat } from "@/components/custom/chat";
 import { generateUUID } from "@/lib/utils";
+import { getConfig } from "@/lib/config/get-config";
 
 export default async function Page() {
   const id = generateUUID();
+  const config = getConfig();
+  
+  // Build welcome message from config
+  let welcomeText = config.ui.welcomeMessage.title + '\n\n';
+  welcomeText += config.ui.welcomeMessage.subtitle + '\n\n';
+  welcomeText += config.ui.welcomeMessage.callToAction;
+  
+  if (config.ui.welcomeMessage.options.length > 0) {
+    welcomeText += '\n';
+    for (const option of config.ui.welcomeMessage.options) {
+      welcomeText += `• ${option}\n`;
+    }
+  }
+  
+  if (config.ui.welcomeMessage.closing) {
+    welcomeText += '\n' + config.ui.welcomeMessage.closing;
+  }
   
   const welcomeMessage: UIMessage = {
     id: generateUUID(),
     role: 'assistant',
     parts: [{
       type: 'text',
-      text: `Welcome to Verbier Festival 2025! 🎼
-
-I'm your Festival Digital Concierge, at your service to curate the perfect classical music experience among our 200+ performances from July 17 to August 3.
-
-How may I assist you today?
-• 🎵 Discover concerts matching your musical tastes
-• 🌄 Explore unique alpine venue experiences  
-• 📅 Create a personalized festival itinerary
-• 🎭 Learn about featured artists and programs
-
-Allow me to learn about your preferences and create your ideal festival experience!`
+      text: welcomeText
     }]
   };
   

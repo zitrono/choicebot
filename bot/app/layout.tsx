@@ -3,17 +3,21 @@ import { Toaster } from "sonner";
 
 import { Navbar } from "@/components/custom/navbar";
 import { ThemeProvider } from "@/components/custom/theme-provider";
+import { getConfig } from "@/lib/config/get-config";
 
 import "./globals.css";
 
+// Load configuration
+const config = getConfig();
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://verbier-demo.vercel.app"),
-  title: "Festival Concierge | Verbier Festival 2025",
-  description: "Festival Concierge for the Verbier Festival - your personal guide to creating customized classical music experiences in the Swiss Alps. Get personalized concert recommendations from 200+ performances featuring world-renowned artists.",
-  keywords: ["Verbier Festival", "classical music", "Swiss Alps", "concerts", "Martha Argerich", "festival concierge"],
+  metadataBase: new URL(config.metadata.domain),
+  title: config.branding.appTitle,
+  description: config.metadata.longDescription,
+  keywords: config.metadata.keywords,
   openGraph: {
-    title: "Festival Concierge | Verbier Festival",
-    description: "Your Festival Concierge - discover your perfect classical music experience at Verbier Festival",
+    title: config.ui.openGraph.title,
+    description: config.ui.openGraph.description,
     type: "website",
   },
 };
@@ -31,7 +35,7 @@ export default async function RootLayout({
           defaultTheme="light"
           enableSystem
           disableTransitionOnChange
-          storageKey="verbier-theme"
+          storageKey={config.branding.themeStorageKey}
         >
           <Toaster position="top-center" />
           <Navbar />

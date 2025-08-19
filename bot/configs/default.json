@@ -1,0 +1,109 @@
+{
+  "id": "default",
+  "metadata": {
+    "name": "AI Assistant",
+    "packageName": "ai-assistant",
+    "version": "0.1.0",
+    "description": "AI Assistant",
+    "longDescription": "A helpful AI assistant powered by advanced language models.",
+    "keywords": ["AI", "assistant", "chatbot"],
+    "domain": "https://choice-bot.vercel.app"
+  },
+  
+  "branding": {
+    "appTitle": "AI Assistant",
+    "navbarTitle": "AI Assistant",
+    "themeStorageKey": "assistant-theme",
+    "primaryColor": "#0066CC",
+    "primaryColorName": "primary-blue",
+    "colorScheme": {
+      "light": "212 100% 40%",
+      "dark": "212 100% 50%"
+    },
+    "logo": {
+      "svg": null,
+      "iconComponent": "BotIcon"
+    },
+    "favicon": "/favicon.ico"
+  },
+  
+  "ui": {
+    "welcomeMessage": {
+      "title": "Welcome! 👋",
+      "subtitle": "I'm your AI assistant. How can I help you today?",
+      "callToAction": "What would you like to know?",
+      "options": [],
+      "closing": ""
+    },
+    "openGraph": {
+      "title": "AI Assistant",
+      "description": "Your helpful AI assistant",
+      "alt": "AI Assistant",
+      "image": {
+        "title": "AI",
+        "subtitle": "ASSISTANT",
+        "tagline": "Here to help",
+        "footer": "",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+      }
+    }
+  },
+  
+  "ai": {
+    "model": {
+      "provider": "google",
+      "name": "gemini-2.5-flash",
+      "experimental": false,
+      "apiKeyEnv": "GOOGLE_GENERATIVE_AI_API_KEY"
+    },
+    
+    "context": {
+      "dataFile": null,
+      "uploadStrategy": "none",
+      "displayName": "Knowledge Base",
+      "cacheHours": 48,
+      "fileManagerClass": "DefaultFileManager"
+    },
+    
+    "prompts": {
+      "systemPromptFile": null,
+      "personalizationEnabled": false,
+      "fallbackPrompt": "You are a helpful AI assistant. Please provide accurate and helpful responses.",
+      "promptVariables": {}
+    },
+    
+    "retryStrategy": {
+      "maxDuration": 150,
+      "quotaHandling": true
+    }
+  },
+  
+  "features": {
+    "authentication": false,
+    "chatHistory": true,
+    "fileUpload": false,
+    "structuredResponses": false,
+    "choices": false,
+    "quizzes": false,
+    "recommendations": false,
+    "weather": false,
+    "reservations": false
+  },
+  
+  "schemas": {
+    "festival": false,
+    "assistantResponse": true,
+    "choice": false,
+    "quiz": false
+  },
+  
+  "routes": {
+    "basePath": "/",
+    "apiRoutes": {
+      "chat": "/api/chat",
+      "files": "/api/files/upload",
+      "history": "/api/history",
+      "reservation": "/api/reservation"
+    }
+  }
+}

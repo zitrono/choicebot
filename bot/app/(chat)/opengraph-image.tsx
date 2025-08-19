@@ -1,8 +1,11 @@
 import { ImageResponse } from 'next/og';
+import { getConfig } from '@/lib/config/get-config';
 
 export const runtime = 'edge';
 
-export const alt = 'Verbier Festival Concierge';
+const config = getConfig();
+
+export const alt = config.ui.openGraph.alt;
 export const size = {
   width: 1200,
   height: 630,
@@ -15,7 +18,7 @@ export default async function Image() {
       <div
         style={{
           fontSize: 128,
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          background: config.ui.openGraph.image.gradient,
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -34,7 +37,7 @@ export default async function Image() {
             textTransform: 'uppercase',
           }}
         >
-          Verbier Festival
+          {config.ui.openGraph.image.title}
         </div>
         <div
           style={{
@@ -44,7 +47,7 @@ export default async function Image() {
             marginBottom: 30,
           }}
         >
-          CONCIERGE
+          {config.ui.openGraph.image.subtitle}
         </div>
         <div
           style={{
@@ -56,18 +59,20 @@ export default async function Image() {
             opacity: 0.9,
           }}
         >
-          Your Personal Classical Music Experience Curator
+          {config.ui.openGraph.image.tagline}
         </div>
-        <div
-          style={{
-            fontSize: 24,
-            fontWeight: 300,
-            marginTop: 40,
-            opacity: 0.7,
-          }}
-        >
-          Swiss Alps • July 17 - August 3, 2025
-        </div>
+        {config.ui.openGraph.image.footer && (
+          <div
+            style={{
+              fontSize: 24,
+              fontWeight: 300,
+              marginTop: 40,
+              opacity: 0.7,
+            }}
+          >
+            {config.ui.openGraph.image.footer}
+          </div>
+        )}
       </div>
     ),
     {
